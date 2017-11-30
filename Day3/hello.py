@@ -35,5 +35,5 @@ print("name:",name,"name2",name2)  #name值会变 但name2不会变
 #手动删除变量 关键字+变量名   del Age  
 
 
-
+print("你好")
 
