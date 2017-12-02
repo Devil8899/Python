@@ -4,9 +4,9 @@ pwd=input("pwd >>:")
 nam2="tom"
 pwd2="123"
 num="1"
-     file_object2 = open('data.txt')   #read 打开文件
+file_object2 = open('data.txt')   #read 打开文件
 try:
-     all_the_text = file_object2.read( )   #读取数据
+    all_the_text = file_object2.read()   #读取数据
 finally:
      file_object2.close( )   #关闭资源
 if name==nam2 and pwd==pwd2:
