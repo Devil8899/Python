@@ -52,4 +52,8 @@ a=['jerry','tom','jeams','eason','jack','Bryant']
 #del a[0]  #根据下标删除
 #del a    #将a 对象删除
 
+#清空  claer()
+
+#判断是不是列表
+#print(type(a) is list)
 

@@ -74,9 +74,9 @@ break , continue
         查
             索引(下标) ，都是从0开始
             切片
-            .count 查某个元素的出现次数
+            .count 查某个元素的出现次数   没有就是0
             .index 根据内容找其对应的位置
-            "haidilao ge" in a
+            "haidilao ge" in a    如果没有就是fasle
         增加
             a.append() 追加
             a.insert(index, "内容")
