@@ -21,6 +21,7 @@ if Money.isdigit():
     Money=int(Money)
 
     while True:
+   # for 后面可以加多个循环变量  并且可以加序号 索引
    #enumerate 默认从0开始 设置从1开始
    #变量v  使用了2个变量来接受  i=序号 v=元祖
         for i, v in enumerate(product_list, 1):
