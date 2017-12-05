@@ -1,0 +1,49 @@
+数据进化
+#二进制
+
+--> ASSIC: 只能存英文和拉丁字符 一个字符占一个字节 有一个字节是8位  python2
+
+------>中文码表的发展
+-->gb2312 : 6000多汉字 1980
+-->gbk    :20000+汉字  1995
+-->gb18030 :27000+汉字 2000
+
+-----万国码的出现 unicode的发展:
+unicode:
+       utf-32 -->1个字符 占4个字节
+       utf-16 -->1个字符 占2个字节或2个以上  65535
+       utf-8  -->一个英文用ASSIC来存 一个中文占3个字节
+
+ 编码过程encode      unicode向下兼容gbk等
+
+ 解码过程decode
+
+ python2
+ gbk需要转换为utf-8格式
+ 1.通过编码decode转换为Unicode
+ 2.通过编码encode转换为utf-8格式
+
+python3
+1.encode 编码同时，把数据类型转为bytes类型
+2.decode 解码同时，把bytes数据类型转为字符串
+
+ 首先要搞清楚，字符串在Python内部的表示是unicode编码，
+ 因此，在做编码转换时，通常需要以unicode作为中间编码，
+ 即先将其他编码的字符串解码（decode）成unicode，
+ 再从unicode编码（encode）成另一种编码。
+
+decode的作用是将其他编码的字符串转换成unicode编码，
+如str1.decode('gb2312')，表示将gb2312编码的字符串转换成unicode编码。
+
+encode的作用是将unicode编码转换成其他编码的字符串，
+如str2.encode('gb2312')，表示将unicode编码的字符串转换成gb2312编码。
+
+in python2
+默认ASSIC
+
+in python3
+默认utf-8
+
+代表
+u=unicode
+b=byte=字节类型  理解为2进制数据  0-255纯数字
