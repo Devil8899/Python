@@ -1,7 +1,7 @@
 #_author: liuz
 #date: 2017/12/11
 
-#os模块
+#os模块  os模块包含普遍的操作系统功能
 
 import  os
 import time
@@ -17,7 +17,7 @@ print(os.pardir)   #父目录  ..
 #os.remove(r'test\test2')         #删除单级空目录，若目录不为空则无法删除，报错
 
 #print(os.listdir(r'D:\liuz\new\Python')) # 列出指定目录下的所有文件和子目录，包括隐藏文件，并以列表方式打印 ['.git', 'Day14', 'Day15', 'Day16', 'Day17', 'Day18', 'Day3', 'Day4', 'Day5', 'Day6', 'Day7', 'Day8']
-#print(os.remove('文件名'))        #只能删除文件 不能删除文件夹
+#print(os.remove('文件名'))               #只能删除文件 不能删除文件夹
 #print(os.rename('oldname','newname'))  #重命名  文件或文件夹
 #print(os.rename('test','testNew'))
 

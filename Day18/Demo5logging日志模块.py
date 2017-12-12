@@ -15,7 +15,7 @@ logging的日志可以分为 debug(), info(), warning(), error() and critical()
 
 
 
-#日志基本配置basicConfig(默认日志显示级别，
+#日志基本配置basicConfig()默认日志显示级别，
 logging.basicConfig(level=logging.DEBUG,
         format='%(asctime)s %(filename)s[line:%(lineno)d]%(levelname)s%(message)s',  #括号内都是变量
         datefmt='%m/%d/%Y %I:%M:%S %p',  #asctime定义时间格式
