@@ -30,6 +30,7 @@ import  time
 
 #time.sleep(secs)：线程推迟指定的时间运行。单位为秒。
 
+#print(time.asctime())  #Tue Dec 12 09:39:35 2017
 #另一个时间模块
 import  datetime
 print(datetime.datetime.now())  #2017-12-11 14:31:17.346349

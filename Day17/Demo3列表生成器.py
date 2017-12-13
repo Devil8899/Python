@@ -38,7 +38,8 @@ for i in w:
     print(i)
 '''
 
-#2.Create_foo() 不再是一个方法 而是一个生成器对象  返回的是一个对象 而不是执行里面的语句
+#2.Create_foo() 不再是一个方法 而是一个生成器对象
+# 返回的是一个对象 而不是执行里面的语句
 def Create_foo():
     print("msg")
     yield   1   #关键字yield 可以想成return语句 中断循环
@@ -90,7 +91,8 @@ def  fmy(max):
         n=n+1
 
 after2=fmy(8)
-#print(next(after2))
+print(next(after2))
+print(next(after2))
 
 
 

@@ -45,7 +45,6 @@ def getCode(m):
     print(code)
 
 #getCode(3)
-
 def getcode2(m):
     code=''
     for i in range(m):
