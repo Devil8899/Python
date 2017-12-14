@@ -3,7 +3,7 @@
 
 #logger是一个模块级别的函数
 
-#1.引用  获取logger对象
+#1.引用模块  获取logger对象
 import  logging
 logger2=logging.getLogger()
 # logger1=logging.Logger('logname',level=logging.DEBUG)
@@ -24,11 +24,12 @@ ch.setFormatter(formaterNew)
 #实现输出方式
 logger2.addHandler(fw)
 logger2.addHandler(ch)
-#设置级别 DEBUG 为最低
+#设置级别 DEBUG 为最低 就能把全部五种级别全部打印
 logger2.setLevel(logging.DEBUG)
 
 #默认只能打印warning或者级别更高的
 logger2.debug("logger debug message")
 logger2.info("logger info message")
 logger2.warning("logger warning message")
+
 
