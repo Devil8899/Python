@@ -15,6 +15,7 @@
     <orderEntry type="module" module-name="Day19" />
     <orderEntry type="module" module-name="Day21" />
     <orderEntry type="module" module-name="Day22" />
+    <orderEntry type="module" module-name="Day24" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

@@ -10,3 +10,6 @@ from core import main
 
 #2.调用main模块下面的run()方法
 main.run()
+
+if  __name__=="__main__":
+    main.main()

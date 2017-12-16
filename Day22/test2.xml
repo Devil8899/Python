@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<namelist>
+    <name id="name1">
+        jerry
+        <childname />
+    </name>
+    <age checked="false">20</age>
+</namelist>

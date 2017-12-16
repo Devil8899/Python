@@ -1,0 +1,9 @@
+<ufinterface billtype="CE07">
+    <bill id="bill1">
+            <thsl id="tom1">1</thsl>
+            <hysl>25</hysl>
+    </bill>
+    <news>
+            <billid updated="no">23</billid>
+            </news>
+</ufinterface>

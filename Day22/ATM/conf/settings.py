@@ -11,3 +11,18 @@ LOG_TYPES={
     'access':'access.log',
     'transaction':'transaction.log'
 }
+
+#定义验证数据库
+DATABASE={
+    'engine':'file_storage',
+    'name':'Accounts',
+    'path':'{basedir}/db'.format(basedir=BASE_DIR)
+}
+
+#存取款类型
+TransType={
+    'repay':{'action':'plus','interset':0},      #付款
+    'withraw':{'action':'minus','interset':0.05},
+    'transfer':{'action':'minus','interset':0.05},
+    'consume':{'action':'minus','interset':0}
+}
