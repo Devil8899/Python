@@ -40,5 +40,5 @@ class cat :
 
 cat1=cat('tom')
 cat1.setname='jerry'
-cat1.delname
+del cat1.delname   #删除字段
 print(cat1.getname)

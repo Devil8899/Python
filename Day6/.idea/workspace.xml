@@ -13,53 +13,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Day6$Demo3.coverage" NAME="Demo3继承 Coverage Results" MODIFIED="1513406542791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$demo.coverage" NAME="demo Coverage Results" MODIFIED="1512439712749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day7" />
+    <SUITE FILE_PATH="coverage/Day6$auth.coverage" NAME="auth Coverage Results" MODIFIED="1513329618124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
+    <SUITE FILE_PATH="coverage/Day6$NewDemo.coverage" NAME="NewDemo Coverage Results" MODIFIED="1512439835468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day7" />
+    <SUITE FILE_PATH="coverage/Day6$main.coverage" NAME="main Coverage Results" MODIFIED="1513399487301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
+    <SUITE FILE_PATH="coverage/Day6$Demo7ConfigParser.coverage" NAME="Demo7ConfigParser模块 Coverage Results" MODIFIED="1513053312338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
+    <SUITE FILE_PATH="coverage/Day6$Demo1json.coverage" NAME="Demo1json Coverage Results" MODIFIED="1513240714418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
+    <SUITE FILE_PATH="coverage/Day6$Demo4hashlib.coverage" NAME="Demo4hashlib模块 Coverage Results" MODIFIED="1512987660413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
+    <SUITE FILE_PATH="coverage/Day6$Demo9.coverage" NAME="Demo9类的成员之方法 Coverage Results" MODIFIED="1513414664366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo3sys.coverage" NAME="Demo3sys模块 Coverage Results" MODIFIED="1512986636581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
+    <SUITE FILE_PATH="coverage/Day6$Demo6.coverage" NAME="Demo6继承的方法执行顺序 Coverage Results" MODIFIED="1513410158043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo1.coverage" NAME="Demo1面向对象 Coverage Results" MODIFIED="1513402663047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo5logging.coverage" NAME="Demo5logging日志模块 Coverage Results" MODIFIED="1513001772750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
+    <SUITE FILE_PATH="coverage/Day6$bin.coverage" NAME="bin Coverage Results" MODIFIED="1513229840202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day19/Demo3BASEDIR/bin" />
+    <SUITE FILE_PATH="coverage/Day6$Demo13.coverage" NAME="Demo13练习属性 Coverage Results" MODIFIED="1513502688218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo3flush.coverage" NAME="Demo3文件方法flush练习 Coverage Results" MODIFIED="1512480438579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day8" />
+    <SUITE FILE_PATH="coverage/Day6$Demo2.coverage" NAME="Demo2构造方法和继承 Coverage Results" MODIFIED="1513405302562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$test.coverage" NAME="test Coverage Results" MODIFIED="1512298626500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Day6$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1513305043686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
+    <SUITE FILE_PATH="coverage/Day6$Demo42.coverage" NAME="Demo4继承2 Coverage Results" MODIFIED="1513407177793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo5_.coverage" NAME="Demo5 三级菜单文件版练习 Coverage Results" MODIFIED="1512488813722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day8" />
+    <SUITE FILE_PATH="coverage/Day6$Demo2Set.coverage" NAME="Demo2Set集合 Coverage Results" MODIFIED="1512663377776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day14" />
+    <SUITE FILE_PATH="coverage/Day6$logger.coverage" NAME="logger Coverage Results" MODIFIED="1513306428491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
     <SUITE FILE_PATH="coverage/Day6$Demo3_.coverage" NAME="Demo3 字典 Coverage Results" MODIFIED="1512294194900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Day6$Demo6time.coverage" NAME="Demo6time模块 Coverage Results" MODIFIED="1513042774997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day17" />
     <SUITE FILE_PATH="coverage/Day6$Demo1_3.coverage" NAME="Demo1 3级菜单作业 Coverage Results" MODIFIED="1512366474785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day7" />
     <SUITE FILE_PATH="coverage/Day6$addmodel.coverage" NAME="addmodel Coverage Results" MODIFIED="1513230814329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day19/模块" />
     <SUITE FILE_PATH="coverage/Day6$Demo53.coverage" NAME="Demo5继承3 Coverage Results" MODIFIED="1513409086482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$Demo5shelve.coverage" NAME="Demo5shelve模块 Coverage Results" MODIFIED="1513243047325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
-    <SUITE FILE_PATH="coverage/Day6$Demo3.coverage" NAME="Demo3继承 Coverage Results" MODIFIED="1513406542791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
-    <SUITE FILE_PATH="coverage/Day6$demo.coverage" NAME="demo Coverage Results" MODIFIED="1512439712749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day7" />
-    <SUITE FILE_PATH="coverage/Day6$auth.coverage" NAME="auth Coverage Results" MODIFIED="1513329618124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
-    <SUITE FILE_PATH="coverage/Day6$NewDemo.coverage" NAME="NewDemo Coverage Results" MODIFIED="1512439835468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day7" />
     <SUITE FILE_PATH="coverage/Day6$Demo8.coverage" NAME="Demo8类的成员之字段 Coverage Results" MODIFIED="1513415543023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$Demo2json.coverage" NAME="Demo2json获取数据 Coverage Results" MODIFIED="1513240999691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
-    <SUITE FILE_PATH="coverage/Day6$main.coverage" NAME="main Coverage Results" MODIFIED="1513399487301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
-    <SUITE FILE_PATH="coverage/Day6$Demo7ConfigParser.coverage" NAME="Demo7ConfigParser模块 Coverage Results" MODIFIED="1513053312338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
-    <SUITE FILE_PATH="coverage/Day6$Demo1json.coverage" NAME="Demo1json Coverage Results" MODIFIED="1513240714418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
     <SUITE FILE_PATH="coverage/Day6$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1513244293957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/bin" />
-    <SUITE FILE_PATH="coverage/Day6$Demo4hashlib.coverage" NAME="Demo4hashlib模块 Coverage Results" MODIFIED="1512987660413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
     <SUITE FILE_PATH="coverage/Day6$Account_sample.coverage" NAME="Account_sample Coverage Results" MODIFIED="1513328234473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/db" />
-    <SUITE FILE_PATH="coverage/Day6$Demo9.coverage" NAME="Demo9类的成员之方法 Coverage Results" MODIFIED="1513414664366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo14.coverage" NAME="Demo14属性 Coverage Results" MODIFIED="1513503387398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$Demo11.coverage" NAME="Demo11属性的操作 Coverage Results" MODIFIED="1513415874529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$Demo4dump__load__.coverage" NAME="Demo4dump()和load() Coverage Results" MODIFIED="1513242350524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
     <SUITE FILE_PATH="coverage/Day6$Demo6_.coverage" NAME="Demo6 三级菜单 Coverage Results" MODIFIED="1512307144246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Day6$Demo3sys.coverage" NAME="Demo3sys模块 Coverage Results" MODIFIED="1512986636581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
-    <SUITE FILE_PATH="coverage/Day6$Demo6.coverage" NAME="Demo6继承的方法执行顺序 Coverage Results" MODIFIED="1513410158043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$atm.coverage" NAME="atm Coverage Results" MODIFIED="1513329723742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/bin" />
-    <SUITE FILE_PATH="coverage/Day6$Demo1.coverage" NAME="Demo1面向对象 Coverage Results" MODIFIED="1513402663047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
-    <SUITE FILE_PATH="coverage/Day6$Demo5logging.coverage" NAME="Demo5logging日志模块 Coverage Results" MODIFIED="1513001772750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
     <SUITE FILE_PATH="coverage/Day6$Demo6logger.coverage" NAME="Demo6logger对象 Coverage Results" MODIFIED="1513002754919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
     <SUITE FILE_PATH="coverage/Day6$Demo2os.coverage" NAME="Demo2os模块 Coverage Results" MODIFIED="1512985093101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day18" />
     <SUITE FILE_PATH="coverage/Day6$Demo4.coverage" NAME="Demo4伪并发 Coverage Results" MODIFIED="1513042086603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day17" />
     <SUITE FILE_PATH="coverage/Day6$transtion.coverage" NAME="transtion Coverage Results" MODIFIED="1513328108222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
-    <SUITE FILE_PATH="coverage/Day6$bin.coverage" NAME="bin Coverage Results" MODIFIED="1513229840202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day19/Demo3BASEDIR/bin" />
-    <SUITE FILE_PATH="coverage/Day6$Demo3flush.coverage" NAME="Demo3文件方法flush练习 Coverage Results" MODIFIED="1512480438579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day8" />
     <SUITE FILE_PATH="coverage/Day6$Demo7random.coverage" NAME="Demo7random随机数 Coverage Results" MODIFIED="1513042603033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day17" />
     <SUITE FILE_PATH="coverage/Day6$Demo1xml.coverage" NAME="Demo1xml模块 Coverage Results" MODIFIED="1513400204944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22" />
-    <SUITE FILE_PATH="coverage/Day6$Demo2.coverage" NAME="Demo2构造方法和继承 Coverage Results" MODIFIED="1513405302562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
-    <SUITE FILE_PATH="coverage/Day6$test.coverage" NAME="test Coverage Results" MODIFIED="1512298626500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Day6$Demo10.coverage" NAME="Demo10类的成员之属性 Coverage Results" MODIFIED="1513416562883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
+    <SUITE FILE_PATH="coverage/Day6$Demo10.coverage" NAME="Demo10类的成员之属性 Coverage Results" MODIFIED="1513441463028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
     <SUITE FILE_PATH="coverage/Day6$Demo4__name__.coverage" NAME="Demo4__name__变量 Coverage Results" MODIFIED="1513230893595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day19" />
-    <SUITE FILE_PATH="coverage/Day6$accounts.coverage" NAME="accounts Coverage Results" MODIFIED="1513305043686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
     <SUITE FILE_PATH="coverage/Day6$Demo2_Teacher.coverage" NAME="Demo2 购物车Teacher Coverage Results" MODIFIED="1512301112737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Day6$Demo5.coverage" NAME="Demo5函数返回值 Coverage Results" MODIFIED="1513245360467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day14" />
-    <SUITE FILE_PATH="coverage/Day6$Demo42.coverage" NAME="Demo4继承2 Coverage Results" MODIFIED="1513407177793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day24" />
-    <SUITE FILE_PATH="coverage/Day6$Demo5_.coverage" NAME="Demo5 三级菜单文件版练习 Coverage Results" MODIFIED="1512488813722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day8" />
-    <SUITE FILE_PATH="coverage/Day6$Demo2Set.coverage" NAME="Demo2Set集合 Coverage Results" MODIFIED="1512663377776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day14" />
     <SUITE FILE_PATH="coverage/Day6$Demo3Pickle.coverage" NAME="Demo3Pickle Coverage Results" MODIFIED="1513241618449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day21" />
-    <SUITE FILE_PATH="coverage/Day6$logger.coverage" NAME="logger Coverage Results" MODIFIED="1513306428491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Day22/ATM/core" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -74,11 +76,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Demo13练习属性.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Day24/Demo13练习属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo14属性.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Day24/Demo14属性.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Demo1面向对象.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Day24/Demo1面向对象.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#44#50#0" expanded="false" />
               </folding>
@@ -86,91 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo3继承.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo3继承.py">
+      <file leaf-file-name="Demo2构造方法和封装.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Day24/Demo2构造方法和封装.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo4继承2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo4继承2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
+            <state relative-caret-position="-855">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo5继承3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo5继承3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo6继承的方法执行顺序.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo6继承的方法执行顺序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo7多态.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo7多态.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo8类的成员之字段.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo8类的成员之字段.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo9类的成员之方法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo9类的成员之方法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo10类的成员之属性.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo10类的成员之属性.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo12属性的操作.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Day24/Demo12属性的操作.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -230,9 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Day19/Firlogger/Senlogger/M_file.py" />
-        <option value="$PROJECT_DIR$/../Day19/Firlogger/M_Print.py" />
-        <option value="$PROJECT_DIR$/../Day19/模块/Demo3模块.py" />
         <option value="$PROJECT_DIR$/../Day19/Demo3BASEDIR/conf/conf.py" />
         <option value="$PROJECT_DIR$/../Day19/Demo3BASEDIR/module/logger.py" />
         <option value="$PROJECT_DIR$/../Day19/Demo3BASEDIR/module/main.py" />
@@ -281,6 +220,9 @@
         <option value="$PROJECT_DIR$/../Day24/Demo8类的成员之字段.py" />
         <option value="$PROJECT_DIR$/../Day24/Demo11属性的操作.py" />
         <option value="$PROJECT_DIR$/../Day24/Demo10类的成员之属性.py" />
+        <option value="$PROJECT_DIR$/../Day24/Demo10练习属性.py" />
+        <option value="$PROJECT_DIR$/../Day24/Demo13练习属性.py" />
+        <option value="$PROJECT_DIR$/../Day24/Demo14属性.py" />
       </list>
     </option>
   </component>
@@ -290,7 +232,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="y" value="129" />
     <option name="width" value="980" />
@@ -365,15 +307,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="Day24" type="cbb8eebc:String" user="Day24" />
             </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Day24" type="cbb8eebc:String" user="Day24" />
-              <item name="D:\liuz\new\Python\Day24" type="cbb8eebc:String" user="D:\liuz\new\Python\Day24" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Day6" type="cbb8eebc:String" user="Day6" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -406,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Demo10类的成员之属性">
+  <component name="RunManager" selected="Python.Demo14属性">
     <configuration name="Demo10类的成员之属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -443,7 +376,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Demo6继承的方法执行顺序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Demo13练习属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -456,7 +389,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Day24" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Day24/Demo6继承的方法执行顺序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Day24/Demo13练习属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Demo14属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Day24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Day24" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Day24/Demo14属性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -479,38 +430,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Demo9类的成员之方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Day24" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Day24" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Day24/Demo9类的成员之方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Demo6继承的方法执行顺序" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Demo8类的成员之字段" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Demo9类的成员之方法" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Demo10类的成员之属性" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Demo11属性的操作" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Demo8类的成员之字段" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Demo10类的成员之属性" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Demo11属性的操作" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Demo13练习属性" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Demo14属性" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Demo10类的成员之属性" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Demo11属性的操作" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Demo8类的成员之字段" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Demo9类的成员之方法" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Demo6继承的方法执行顺序" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Demo14属性" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Demo13练习属性" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Demo10类的成员之属性" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Demo11属性的操作" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Demo8类的成员之字段" />
       </list>
     </recent_temporary>
   </component>
@@ -540,10 +473,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="49" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="49" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30777538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21868251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32660332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -551,8 +483,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4038005" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25296912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4038005" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,7 +574,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="204" />
+      <option name="time" value="217" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -651,27 +583,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Day18/Demo3sys模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Day14/Demo4函数的参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Day14/Demo5函数返回值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Day14/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#485#970#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,39 +840,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Day24/Demo2构造方法和封装.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Day24/Demo1面向对象.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#44#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo3继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo4继承2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -984,16 +861,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo5继承3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="1680">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo6继承的方法执行顺序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="1050">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1016,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo8类的成员之字段.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="240">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
@@ -1024,16 +901,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo12属性的操作.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
+        <state relative-caret-position="150">
           <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day7/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Day24/Demo10类的成员之属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="55">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day24/Demo2构造方法和封装.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day24/Demo1面向对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day24/Demo13练习属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Day24/Demo14属性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
