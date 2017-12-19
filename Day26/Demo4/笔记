@@ -1,0 +1,15 @@
+str    unicode
+bytes  16进制  gbk  utf8 等等类型
+
+d='123'
+
+按照utf8编码16进制数据
+b=bytes(d,'utf8')
+或
+b2=d.encode('utf8')
+
+
+#bytes>>>>>>>>str:解码
+s=str(b,'utf8')   #按照那种规则编码  要相应进行解码
+或
+s2=b2.decode('utf8')

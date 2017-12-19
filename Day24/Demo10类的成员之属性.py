@@ -11,7 +11,7 @@ class dog:
     def run(self):
         print("run fun")
 
-    @property
+    @property              #定义属性
     def eat(self):
         print("eat fun")
 
