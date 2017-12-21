@@ -1,0 +1,2112 @@
+<!doctype html>
+<!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+<!--[if IE 7]>      <html class="no-js ie7 lt-ie8 lt-ie9">          <![endif]-->
+<!--[if IE 8]>      <html class="no-js ie8 lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" dir="ltr">  <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="prefetch" href="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+
+    <meta name="application-name" content="Python.org">
+    <meta name="msapplication-tooltip" content="The official home of the Python Programming Language">
+    <meta name="apple-mobile-web-app-title" content="Python.org">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="imagetoolbar" content="false">
+
+    <script src="/static/js/libs/modernizr.js"></script>
+
+    <link href="/static/stylesheets/style.css" rel="stylesheet" type="text/css" title="default" />
+    <link href="/static/stylesheets/mq.css" rel="stylesheet" type="text/css" media="not print, braille, embossed, speech, tty" />
+    
+
+    <!--[if (lte IE 8)&(!IEMobile)]>
+    <link href="/static/stylesheets/no-mq.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <![endif]-->
+
+    
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="/static/metro-icon-144x144-precomposed.png"><!-- white shape -->
+    <meta name="msapplication-TileColor" content="#3673a5"><!-- python blue -->
+    <meta name="msapplication-navbutton-color" content="#3673a5">
+
+    <title>Welcome to Python.org</title>
+
+    <meta name="description" content="The official home of the Python Programming Language">
+    <meta name="keywords" content="Python programming language object oriented web free open source software license documentation download community">
+
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Python.org">
+    <meta property="og:title" content="Welcome to Python.org">
+    <meta property="og:description" content="The official home of the Python Programming Language">
+    
+    <meta property="og:image" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    <meta property="og:image:secure_url" content="https://www.python.org/static/opengraph-icon-200x200.png">
+    
+    <meta property="og:url" content="https://www.python.org/">
+
+    <link rel="author" href="/static/humans.txt">
+
+    <link rel="alternate" type="application/rss+xml" title="Python Enhancement Proposals"
+          href="https://www.python.org/dev/peps/peps.rss/">
+    <link rel="alternate" type="application/rss+xml" title="Python Job Opportunities"
+          href="https://www.python.org/jobs/feed/rss/">
+    <link rel="alternate" type="application/rss+xml" title="Python Software Foundation News"
+          href="https://feeds.feedburner.com/PythonSoftwareFoundationNews">
+    <link rel="alternate" type="application/rss+xml" title="Python Insider"
+          href="https://feeds.feedburner.com/PythonInsider">
+
+    
+
+    
+    <script type="application/ld+json">
+     {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+    </script>
+
+    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    
+</head>
+
+<body class="python home" id="homepage">
+
+    <div id="touchnav-wrapper">
+
+        <div id="nojs" class="do-not-print">
+            <p><strong>Notice:</strong> While Javascript is not essential for this website, your interaction with the content will be limited. Please turn Javascript on for the full experience. </p>
+        </div>
+
+        <!--[if lt IE 8]>
+        <div id="oldie-warning" class="do-not-print">
+            <p><strong>Notice:</strong> Your browser is <em>ancient</em> and <a href="http://www.ie6countdown.com/">Microsoft agrees</a>. <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience a better web.</p>
+        </div>
+        <![endif]-->
+
+        <!-- Sister Site Links -->
+        <div id="top" class="top-bar do-not-print">
+
+            <nav class="meta-navigation container" role="navigation">
+
+                
+                <div class="skip-link screen-reader-text">
+                    <a href="#content" title="Skip to content">Skip to content</a>
+                </div>
+
+                
+                <a id="close-python-network" class="jump-link" href="#python-network" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-down"><span>&#9660;</span></span> Close
+                </a>
+
+                
+
+<ul class="menu" role="tree">
+    
+    <li class="python-meta current_item selectedcurrent_branch selected">
+        <a href="/" title="The Python Programming Language" class="current_item selectedcurrent_branch selected">Python</a>
+    </li>
+    
+    <li class="psf-meta ">
+        <a href="/psf-landing/" title="The Python Software Foundation" >PSF</a>
+    </li>
+    
+    <li class="docs-meta ">
+        <a href="https://docs.python.org" title="Python Documentation" >Docs</a>
+    </li>
+    
+    <li class="pypi-meta ">
+        <a href="https://pypi.python.org/" title="Python Package Index" >PyPI</a>
+    </li>
+    
+    <li class="jobs-meta ">
+        <a href="/jobs/" title="Python Job Board" >Jobs</a>
+    </li>
+    
+    <li class="shop-meta ">
+        <a href="/community/" title="Python Community" >Community</a>
+    </li>
+    
+</ul>
+
+
+                <a id="python-network" class="jump-link" href="#top" aria-hidden="true">
+                    <span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> The Python Network
+                </a>
+
+            </nav>
+
+        </div>
+
+        <!-- Header elements -->
+        <header class="main-header" role="banner">
+            <div class="container">
+
+                <h1 class="site-headline">
+                    <a href="/"><img class="python-logo" src="/static/img/python-logo.png" alt="python&trade;"></a>
+                </h1>
+
+                <div class="options-bar do-not-print">
+
+                    
+                    <a id="site-map-link" class="jump-to-menu" href="#site-map"><span class="menu-icon">&equiv;</span> Menu</a><form class="search-the-site" action="/search/" method="get">
+                        <fieldset title="Search Python.org">
+
+                            <span aria-hidden="true" class="icon-search"></span>
+
+                            <label class="screen-reader-text" for="id-search-field">Search This Site</label>
+                            <input id="id-search-field" name="q" type="search" role="textbox" class="search-field" placeholder="Search" value="" tabindex="1">
+
+                            <button type="submit" name="submit" id="submit" class="search-button" title="Submit this Search" tabindex="3">
+                                GO
+                            </button>
+
+                            
+                            <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+
+                        </fieldset>
+                    </form><span class="breaker"></span><div class="adjust-font-size" aria-hidden="true">
+                        <ul class="navigation menu" aria-label="Adjust Text Size on Page">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger"><strong><small>A</small> A</strong></a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a class="text-shrink" title="Make Text Smaller" href="javascript:;">Smaller</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a class="text-grow" title="Make Text Larger" href="javascript:;">Larger</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a class="text-reset" title="Reset any font size changes I have made" href="javascript:;">Reset</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="winkwink-nudgenudge">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                <a href="#" class="action-trigger">Socialize</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="http://plus.google.com/+Python"><span aria-hidden="true" class="icon-google-plus"></span>Google+</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="http://www.facebook.com/pythonlang?fref=ts"><span aria-hidden="true" class="icon-facebook"></span>Facebook</a></li>
+                                    <li class="tier-2 element-3" role="treeitem"><a href="http://twitter.com/ThePSF"><span aria-hidden="true" class="icon-twitter"></span>Twitter</a></li>
+                                    <li class="tier-2 element-4" role="treeitem"><a href="/community/irc/"><span aria-hidden="true" class="icon-freenode"></span>Chat on IRC</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><div class="account-signin">
+                        <ul class="navigation menu" aria-label="Social Media Navigation">
+                            <li class="tier-1 last" aria-haspopup="true">
+                                
+                                <a href="/accounts/login/" title="Sign Up or Sign In to Python.org">Sign In</a>
+                                <ul class="subnav menu">
+                                    <li class="tier-2 element-1" role="treeitem"><a href="/accounts/signup/">Sign Up / Register</a></li>
+                                    <li class="tier-2 element-2" role="treeitem"><a href="/accounts/login/">Sign In</a></li>
+                                </ul>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!-- end options-bar -->
+
+                <nav id="mainnav" class="python-navigation main-navigation do-not-print" role="navigation">
+                    
+                        
+<ul class="navigation menu" role="menubar" aria-label="Main Navigation">
+  
+    
+    
+    <li id="about" class="tier-1 element-1  " aria-haspopup="true">
+        <a href="/about/" title="" class="">About</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="http://brochure.getpython.info/" title="">Python Brochure</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="downloads" class="tier-1 element-2  " aria-haspopup="true">
+        <a href="/downloads/" title="" class="">Downloads</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="documentation" class="tier-1 element-3  " aria-haspopup="true">
+        <a href="/doc/" title="" class="">Documentation</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/doc/essays/" title="">Python Essays</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="community" class="tier-1 element-4  " aria-haspopup="true">
+        <a href="/community/" title="" class="">Community</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/forums/" title="">Forums</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-10" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+        <li class="tier-2 element-11" role="treeitem"><a href="https://www.python.org/psf/codeofconduct/" title="">Code of Conduct</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="success-stories" class="tier-1 element-5  " aria-haspopup="true">
+        <a href="/about/success/" title="success-stories" class="">Success Stories</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="news" class="tier-1 element-6  " aria-haspopup="true">
+        <a href="/blogs/" title="News from around the Python world" class="">News</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    <li id="events" class="tier-1 element-7  " aria-haspopup="true">
+        <a href="/events/" title="" class="">Events</a>
+        
+            
+
+<ul class="subnav menu" role="menu" aria-hidden="true">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    
+    
+    
+  
+</ul>
+
+                    
+                </nav>
+
+                <div class="header-banner "> <!-- for optional "do-not-print" class -->
+                    
+        <div id="dive-into-python" class="flex-slideshow slideshow">
+
+            <ul class="launch-shell menu" id="launch-shell">
+                <li>
+                    <a class="button prompt" id="start-shell" data-shell-container="#dive-into-python" href="/shell/">&gt;_
+                        <span class="message">Launch Interactive Shell</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="slides menu">
+                
+                <li>
+                    <div class="slide-code"><pre><code><span class="comment"># Python 3: Fibonacci series up to n</span>
+>>> def fib(n):
+>>>     a, b = 0, 1
+>>>     while a &lt; n:
+>>>         print(a, end=' ')
+>>>         a, b = b, a+b
+>>>     print()
+>>> fib(1000)
+<span class="output">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</span></code></pre></div>
+                    <div class="slide-copy"><h1>Functions Defined</h1>
+<p>The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists. <a href="//docs.python.org/3/tutorial/controlflow.html#defining-functions">More about defining functions in Python&nbsp;3</a></p></div>
+                </li>
+                
+                <li>
+                    <div class="slide-code"><pre><code><span class="comment"># Python 3: List comprehensions</span>
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+<span class="output">['BANANA', 'APPLE', 'LIME']</span>
+
+<span class="comment"># List and the enumerate function</span>
+>>> list(enumerate(fruits))
+<span class="output">[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]</span></code></pre></div>
+                    <div class="slide-copy"><h1>Compound Data Types</h1>
+<p>Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions. <a href="//docs.python.org/3/tutorial/introduction.html#lists">More about lists in Python&nbsp;3</a></p></div>
+                </li>
+                
+                <li>
+                    <div class="slide-code"><pre><code><span class="comment"># Python 3: Simple arithmetic</span>
+>>> 1 / 2
+<span class="output">0.5</span>
+>>> 2 ** 3
+<span class="output">8</span>
+>>> 17 / 3  <span class="comment"># classic division returns a float</span>
+<span class="output">5.666666666666667</span>
+>>> 17 // 3  <span class="comment"># floor division</span>
+<span class="output">5</span></code></pre></div>
+                    <div class="slide-copy"><h1>Intuitive Interpretation</h1>
+<p>Calculations are simple with Python, and expression syntax is straightforward: the operators <code>+</code>, <code>-</code>, <code>*</code> and <code>/</code> work as expected; parentheses <code>()</code> can be used for grouping. <a href="http://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator">More about simple math functions in Python&nbsp;3</a>.</p></div>
+                </li>
+                
+                <li>
+                    <div class="slide-code"><pre><code><span class="comment"># Python 3: Simple output (with Unicode)</span>
+>>> print("Hello, I'm Python!")
+<span class="output">Hello, I'm Python!</span>
+
+<span class="comment"># Input, assignment</span>
+>>> name = input('What is your name?\n')
+>>> print('Hi, %s.' % name)
+<span class="output">What is your name?
+Python
+Hi, Python.</span></code></pre></div>
+                    <div class="slide-copy"><h1>Quick &amp; Easy to Learn</h1>
+<p>Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn. <a href="//docs.python.org/3/tutorial/">Whet your appetite</a> with our Python&nbsp;3 overview.</p>
+                   </div>
+                </li>
+                
+                <li>
+                    <div class="slide-code"><pre><code><span class="comment"># For loop on a list</span>
+>>> numbers = [2, 4, 6, 8]
+>>> product = 1
+>>> for number in numbers:
+...    product = product * number
+... 
+>>> print('The product is:', product)
+<span class="output">The product is: 384</span></code></pre></div>
+                    <div class="slide-copy"><h1>All the Flow You&rsquo;d Expect</h1>
+<p>Python knows the usual control flow statements that other languages speak &mdash; <code>if</code>, <code>for</code>, <code>while</code> and <code>range</code> &mdash; with some of its own twists, of course. <a href="//docs.python.org/3/tutorial/controlflow.html">More control flow tools in Python&nbsp;3</a></p></div>
+                </li>
+                
+            </ul>
+        </div>
+
+
+                </div>
+
+                
+        <div class="introduction">
+            <p>Python is a programming language that lets you work quickly <span class="breaker"></span>and integrate systems more effectively. <a class="readmore" href="/doc/">Learn More</a></p>
+        </div>
+
+
+             </div><!-- end .container -->
+        </header>
+
+        <div id="content" class="content-wrapper">
+            <!-- Main Content Column -->
+            <div class="container">
+
+                <section class="main-content " role="main">
+
+                    
+                    
+
+                    
+
+                    
+
+                <div class="row">
+
+                    <div class="small-widget get-started-widget">
+                        <h2 class="widget-title"><span aria-hidden="true" class="icon-get-started"></span>Get Started</h2>
+<p>Whether you're new to programming or an experienced developer, it's easy to learn and use Python.</p>
+<p><a href="/about/gettingstarted/">Start with our Beginner&rsquo;s Guide</a></p>
+                    </div>
+
+                    <div class="small-widget download-widget">
+                        <h2 class="widget-title"><span aria-hidden="true" class="icon-download"></span>Download</h2>
+<p>Python source code and installers are available for download for all versions! Not sure which version to use? <a href="https://wiki.python.org/moin/Python2orPython3">Check here</a>.</p>
+<p>Latest: <a href="/downloads/release/python-364/">Python 3.6.4</a> - <a href="/downloads/release/python-2714/">Python 2.7.14</a></p>
+                    </div>
+
+                    <div class="small-widget documentation-widget">
+                        <h2 class="widget-title"><span aria-hidden="true" class="icon-documentation"></span>Docs</h2>
+<p>Documentation for Python's standard library, along with tutorials and guides, are available online.</p>
+<p><a href="https://docs.python.org">docs.python.org</a></p>
+                    </div>
+
+                    <div class="small-widget jobs-widget last">
+                        <h2 class="widget-title"><span aria-hidden="true" class="icon-jobs"></span>Jobs</h2>
+<p>Looking for work or have a Python related position that you're trying to hire for? Our <strong>relaunched community-run job board</strong> is the place to go.</p>
+<p><a href="//jobs.python.org">jobs.python.org</a></p>
+                    </div>
+
+                </div>
+
+                <div class="list-widgets row">
+
+                    <div class="medium-widget blog-widget">
+                        
+                        <div class="shrubbery">
+                        
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-news"></span>Latest News</h2>
+                            <p class="give-me-more"><a href="http://blog.python.org" title="More News">More</a></p>
+                            
+                            <ul class="menu">
+                                
+                                
+                                <li>
+<time datetime="2017-12-19T08:34:00.000001+00:00"><span class="say-no-more">2017-</span>12-19</time>
+ <a href="http://feedproxy.google.com/~r/PythonInsider/~3/rMFQQbvrekU/python-364-is-now-available.html">Python 3.6.4 is now available. &nbsp;Python 3.6.4 is the fourth ...</a></li>
+                                
+                                <li>
+<time datetime="2017-12-19T08:34:00.000001+00:00"><span class="say-no-more">2017-</span>12-19</time>
+ <a href="http://feedproxy.google.com/~r/PythonInsider/~3/zVC80sq9s00/python-364-is-now-available.html">Python 3.6.4 is now available. &nbsp;Python 3.6.4 is the fourth ...</a></li>
+                                
+                                <li>
+<time datetime="2017-12-06T02:21:00.000002+00:00"><span class="say-no-more">2017-</span>12-06</time>
+ <a href="http://feedproxy.google.com/~r/PythonInsider/~3/xUpvN2wKt2s/python-364rc1-and-370a3-now-available.html">1. Python&nbsp;3.6.4rc1&nbsp;is the first release candidate for Python 3.6.4, the ...</a></li>
+                                
+                                <li>
+<time datetime="2017-12-06T02:21:00.000002+00:00"><span class="say-no-more">2017-</span>12-06</time>
+ <a href="http://feedproxy.google.com/~r/PythonInsider/~3/TmC0nYZBrz4/python-364rc1-and-370a3-now-available.html">1. Python&nbsp;3.6.4rc1&nbsp;is the first release candidate for Python 3.6.4, the ...</a></li>
+                                
+                                <li>
+<time datetime="2017-10-17T19:34:00.000001+00:00"><span class="say-no-more">2017-</span>10-17</time>
+ <a href="http://feedproxy.google.com/~r/PythonInsider/~3/ubEu3XCqoFM/python-370a2-now-available-for-testing.html">Python&nbsp;3.7.0a2&nbsp;is the second of four planned alpha releases of Python ...</a></li>
+                                
+                            </ul>
+                        </div><!-- end .shrubbery -->
+
+                    </div>
+
+                    <div class="medium-widget event-widget last">
+                        
+                        <div class="shrubbery">
+                        
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-calendar"></span>Upcoming Events</h2>
+                            <p class="give-me-more"><a href="/events/calendars/" title="More Events">More</a></p>
+                            
+                            <ul class="menu">
+                                
+                                
+                                
+                                <li>
+<time datetime="2018-01-09T00:00:00+00:00"><span class="say-no-more">2018-</span>01-09</time>
+ <a href="/events/python-user-group/620/">Indy Startup Row Pitch Event</a></li>
+                                
+                                
+                                
+                                <li>
+<time datetime="2018-01-17T17:00:00+00:00"><span class="say-no-more">2018-</span>01-17</time>
+ <a href="/events/python-user-group/605/">Python Meeting Düsseldorf (PyDDF)</a></li>
+                                
+                                
+                                
+                                <li>
+<time datetime="2018-01-22T00:00:00+00:00"><span class="say-no-more">2018-</span>01-22</time>
+ <a href="/events/python-events/543/">PyCascades 2018</a></li>
+                                
+                                
+                                
+                                <li>
+<time datetime="2018-01-24T00:00:00+00:00"><span class="say-no-more">2018-</span>01-24</time>
+ <a href="/events/python-events/611/">PyCon Cameroon 2018</a></li>
+                                
+                                
+                                
+                                <li>
+<time datetime="2018-02-02T00:00:00+00:00"><span class="say-no-more">2018-</span>02-02</time>
+ <a href="/events/python-user-group/619/">Pythology One-Day Conference: Security Best Practices</a></li>
+                                
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="medium-widget success-stories-widget">
+                        
+
+
+
+                        <div class="shrubbery">
+                            
+
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-success-stories"></span>Success Stories</h2>
+                            <p class="give-me-more"><a href="/success-stories/" title="More Success Stories">More</a></p>
+
+                            
+                            <div class="success-story-item" id="success-story-2">
+
+                            <blockquote>
+                                <a href="/success-stories/industrial-light-magic-runs-python/">ILM runs a batch processing environment capable of modeling, rendering and compositing tens of thousands of motion picture frames per day. Thousands of machines running Linux, IRIX, Compaq Tru64, OS X, Solaris, and Windows join together to provide a production pipeline used by ~800 users daily. Speed of development is key, and Python was a faster way to code (and re-code) the programs that control this production pipeline.</a>
+                            </blockquote>
+
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="quote-from">
+                                <tbody>
+                                    <tr>
+                                        
+                                        <td><p><a href="/success-stories/industrial-light-magic-runs-python/">Industrial Light &amp; Magic Runs on Python</a> <em>by Tim Fortenberry</em></p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                            
+
+                        </div><!-- end .shrubbery -->
+
+                    </div>
+
+                    <div class="medium-widget applications-widget last">
+                        <div class="shrubbery">
+                            <h2 class="widget-title"><span aria-hidden="true" class="icon-python"></span>Use Python for&hellip;</h2>
+<p class="give-me-more"><a href="/about/apps" title="More Applications">More</a></p>
+
+<ul class="menu">
+    <li><b>Web Development</b>:
+        <span class="tag-wrapper"><a class="tag" href="http://www.djangoproject.com/">Django</a>, <a class="tag" href="http://www.pylonsproject.org/">Pyramid</a>, <a class="tag" href="http://bottlepy.org">Bottle</a>, <a class="tag" href="http://tornadoweb.org">Tornado</a>, <a href="http://flask.pocoo.org/" class="tag">Flask</a>, <a class="tag" href="http://www.web2py.com/">web2py</a></span></li>
+    <li><b>GUI Development</b>:
+        <span class="tag-wrapper"><a class="tag" href="http://wiki.python.org/moin/TkInter">tkInter</a>, <a class="tag" href="https://wiki.gnome.org/Projects/PyGObject">PyGObject</a>, <a class="tag" href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a>, <a class="tag" href="https://wiki.qt.io/PySide">PySide</a>, <a class="tag" href="https://kivy.org/">Kivy</a>, <a class="tag" href="http://www.wxpython.org/">wxPython</a></span></li>
+    <li><b>Scientific and Numeric</b>:
+        <span class="tag-wrapper">
+<a class="tag" href="http://www.scipy.org">SciPy</a>, <a class="tag" href="http://pandas.pydata.org/">Pandas</a>, <a href="http://ipython.org" class="tag">IPython</a></span></li>
+    <li><b>Software Development</b>:
+        <span class="tag-wrapper"><a class="tag" href="http://buildbot.net/">Buildbot</a>, <a class="tag" href="http://trac.edgewall.org/">Trac</a>, <a class="tag" href="http://roundup.sourceforge.net/">Roundup</a></span></li>
+    <li><b>System Administration</b>:
+        <span class="tag-wrapper"><a class="tag" href="http://www.ansible.com">Ansible</a>, <a class="tag" href="http://www.saltstack.com">Salt</a>, <a class="tag" href="https://www.openstack.org">OpenStack</a></span></li>
+</ul>
+
+                        </div><!-- end .shrubbery -->
+                    </div>
+
+                </div>
+
+                
+                <div class="pep-widget">
+
+                    <h2 class="widget-title">
+                        <span class="prompt">&gt;&gt;&gt;</span> <a href="/dev/peps/">Python Enhancement Proposals<span class="say-no-more"> (PEPs)</span></a>: The future of Python<span class="say-no-more"> is discussed here.</span>
+                        <a aria-hidden="true" class="rss-link" href="/dev/peps/peps.rss"><span class="icon-feed"></span> RSS</a>
+                    </h2>
+
+
+                    
+                    
+                </div>
+
+                                <div class="psf-widget">
+
+                    <div class="python-logo"></div>
+                    
+                    <h2 class="widget-title">
+    <span class="prompt">&gt;&gt;&gt;</span> <a href="/psf/">Python Software Foundation</a>
+</h2>
+<p>The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. <a class="readmore" href="/psf/">Learn more</a> </p>
+<p class="click-these">
+    <a class="button" href="/users/membership/">Become a Member</a>
+    <a class="button" href="/psf/donations/">Donate to the PSF</a>
+</p>
+                </div>
+
+
+
+
+                </section>
+
+                
+                
+
+                
+                
+
+
+            </div><!-- end .container -->
+        </div><!-- end #content .content-wrapper -->
+
+        <!-- Footer and social media list -->
+        <footer id="site-map" class="main-footer" role="contentinfo">
+            <div class="main-footer-links">
+                <div class="container">
+
+                    
+                    <a id="back-to-top-1" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+
+                    
+
+<ul class="sitemap navigation menu do-not-print" role="tree" id="container">
+    
+    <li class="tier-1 element-1">
+        <a href="/about/" >About</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/apps/" title="">Applications</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/quotes/" title="">Quotes</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/gettingstarted/" title="">Getting Started</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/help/" title="">Help</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="http://brochure.getpython.info/" title="">Python Brochure</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-2">
+        <a href="/downloads/" >Downloads</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/downloads/" title="">All releases</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/downloads/source/" title="">Source code</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/downloads/windows/" title="">Windows</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/downloads/mac-osx/" title="">Mac OS X</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/download/other/" title="">Other Platforms</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="https://docs.python.org/3/license.html" title="">License</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/download/alternatives" title="">Alternative Implementations</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-3">
+        <a href="/doc/" >Documentation</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/doc/" title="">Docs</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/doc/av" title="">Audio/Visual Talks</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://wiki.python.org/moin/BeginnersGuide" title="">Beginner&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://docs.python.org/faq/" title="">FAQ</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="http://wiki.python.org/moin/Languages" title="">Non-English Docs</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="http://python.org/dev/peps/" title="">PEP Index</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="https://wiki.python.org/moin/PythonBooks" title="">Python Books</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/doc/essays/" title="">Python Essays</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-4">
+        <a href="/community/" >Community</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/community/diversity/" title="">Diversity</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/community/lists/" title="">Mailing Lists</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/community/irc/" title="">IRC</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/community/forums/" title="">Forums</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/community/workshops/" title="">Python Conferences</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/community/sigs/" title="">Special Interest Groups</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="https://wiki.python.org/moin/" title="">Python Wiki</a></li>
+    
+        <li class="tier-2 element-8" role="treeitem"><a href="/community/logos/" title="">Python Logo</a></li>
+    
+        <li class="tier-2 element-9" role="treeitem"><a href="/community/merchandise/" title="">Merchandise</a></li>
+    
+        <li class="tier-2 element-10" role="treeitem"><a href="/community/awards" title="">Community Awards</a></li>
+    
+        <li class="tier-2 element-11" role="treeitem"><a href="https://www.python.org/psf/codeofconduct/" title="">Code of Conduct</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-5">
+        <a href="/about/success/" title="success-stories">Success Stories</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/about/success/#arts" title="">Arts</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/about/success/#business" title="">Business</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/about/success/#education" title="">Education</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/about/success/#engineering" title="">Engineering</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="/about/success/#government" title="">Government</a></li>
+    
+        <li class="tier-2 element-6" role="treeitem"><a href="/about/success/#scientific" title="">Scientific</a></li>
+    
+        <li class="tier-2 element-7" role="treeitem"><a href="/about/success/#software-development" title="">Software Development</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-6">
+        <a href="/blogs/" title="News from around the Python world">News</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/blogs/" title="Python Insider Blog Posts">Python News</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="http://planetpython.org/" title="Planet Python">Community News</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="http://pyfound.blogspot.com/" title="PSF Blog">PSF News</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="http://pycon.blogspot.com/" title="PyCon Blog">PyCon News</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-7">
+        <a href="/events/" >Events</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="/events/python-events" title="">Python Events</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="/events/python-user-group/" title="">User Group Events</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="/events/python-events/past/" title="">Python Events Archive</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/events/python-user-group/past/" title="">User Group Events Archive</a></li>
+    
+        <li class="tier-2 element-5" role="treeitem"><a href="https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event" title="">Submit an Event</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+    <li class="tier-1 element-8">
+        <a href="/dev/" >Contributing</a>
+        
+            
+
+<ul class="subnav menu">
+    
+        <li class="tier-2 element-1" role="treeitem"><a href="https://devguide.python.org/" title="">Developer&#39;s Guide</a></li>
+    
+        <li class="tier-2 element-2" role="treeitem"><a href="https://bugs.python.org/" title="">Issue Tracker</a></li>
+    
+        <li class="tier-2 element-3" role="treeitem"><a href="https://mail.python.org/mailman/listinfo/python-dev" title="">python-dev list</a></li>
+    
+        <li class="tier-2 element-4" role="treeitem"><a href="/dev/core-mentorship/" title="">Core Mentorship</a></li>
+    
+</ul>
+
+        
+    </li>
+    
+</ul>
+
+
+                    <a id="back-to-top-2" class="jump-link" href="#python-network"><span aria-hidden="true" class="icon-arrow-up"><span>&#9650;</span></span> Back to Top</a>
+                    
+
+                </div><!-- end .container -->
+            </div> <!-- end .main-footer-links -->
+
+            <div class="site-base">
+                <div class="container">
+                    
+                    <ul class="footer-links navigation menu do-not-print" role="tree">
+                        <li class="tier-1 element-1"><a href="/about/help/">Help &amp; <span class="say-no-more">General</span> Contact</a></li>
+                        <li class="tier-1 element-2"><a href="/community/diversity/">Diversity <span class="say-no-more">Initiatives</span></a></li>
+                        <li class="tier-1 element-3"><a href="https://github.com/python/pythondotorg/issues">Submit Website Bug</a></li>
+                        <li class="tier-1 element-4">
+                            <a href="https://status.python.org/">Status <span class="python-status-indicator-default" id="python-status-indicator"></span></a>
+                        </li>
+                    </ul>
+
+                    <div class="copyright">
+                        <p><small>
+                            <span class="pre">Copyright &copy;2001-2017.</span>
+                            &nbsp;<span class="pre"><a href="/psf-landing/">Python Software Foundation</a></span>
+                            &nbsp;<span class="pre"><a href="/about/legal/">Legal Statements</a></span>
+                            &nbsp;<span class="pre"><a href="/privacy/">Privacy Policy</a></span>
+                            &nbsp;<span class="pre"><a href="/psf/sponsorship/sponsors/">Powered by Rackspace</a></span>
+                        </small></p>
+                    </div>
+
+                </div><!-- end .container -->
+            </div><!-- end .site-base -->
+
+        </footer>
+
+    </div><!-- end #touchnav-wrapper -->
+
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <script src="/static/js/libs/masonry.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/main-min.js" charset="utf-8"></script>
+    
+
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="/static/js/plugins/IE8-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="/static/js/plugins/getComputedStyle-min.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+
+    
+
+    
+    
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN" class="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-ZA-Response-Id" content="9626436e287410c3e3f63728ebe6766a">
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,nweb_sticky_sidebar:sticky,ge2:ge2_1,nwebQAGrowth:experiment,nweb_feed_ad:experiment,live_review_buy_bar:live_review_buy_bar_2,market_tab_banner:market_tab_banner_not_show,iOS_Enable_FeedModule_WWAN_AritclePreRender:iOS_FeedModule_WWAN_PreRender_Enable,home_ui2:default,is_show_unicom_free_entry:unicom_free_entry_off,app_store_rate_dialog:close,qa_sticky_sidebar:sticky_sidebar,android_profile_panel:panel_b,new_more:new,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,new_live_feed_mediacard:old,hybrid_zhmore_video:no,new_mobile_column_appheader:new_header,is_office:false,android_db_comment_with_repin_record:open,fav_act:default,android_db_repin_selection:open,qrcode_login:qrcode,new_sign:newVersion,qaweb_related_readings_content_control:open,search_hybrid_tabs:without-tabs,enable_tts_play:false,show_video_upload_attention:true,mobile_qa_page_proxy_heifetz:m_qa_page_nweb,nweb_write_answer:experiment,android_pass_through_push:all,newAppViewRelatedAd:no,qaweb_thumbnail_abtest:new,recommendation_abtest:new,Live_detail_wechat_banner:Live_detail_wechat_banner_1,search_section_style:loosen,enable_vote_down_reason_menu:enable,android_db_recommend_action:open,zcm-lighting:zcm,android_db_feed_hash_tag_style:button,is_new_noti_panel:yes,wechat_share_modal:wechat_share_modal_show,nweb_related_advert:default">
+<meta name="renderer" content="webkit" />
+<meta name="description" content="中文互联网最大的知识平台，帮助人们便捷地分享彼此的知识、经验和见解。"/>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<title>知乎 - 发现更大的世界</title>
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon" />
+<link rel="dns-prefetch" href="p1.zhimg.com"/>
+<link rel="dns-prefetch" href="p2.zhimg.com"/>
+<link rel="dns-prefetch" href="p3.zhimg.com"/>
+<link rel="dns-prefetch" href="p4.zhimg.com"/>
+<link rel="dns-prefetch" href="comet.zhihu.com"/>
+<link rel="dns-prefetch" href="static.zhihu.com"/>
+<link rel="dns-prefetch" href="upload.zhihu.com"/>
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/pages/unlogin-index/main.f214513a.css">
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+<meta name="baidu-site-verification" content="KPFppAFoYF4Kkdv9" />
+<meta property="qc:admins" content="00544670776201056375" />
+<link rel="canonical" href="http://www.zhihu.com" />
+<meta id="znonce" name="znonce" content="bb8db8994b584785b61f669241efb730">
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+</head>
+<body class="zhi ">
+
+
+
+
+<div class="index-main">
+<div class="index-main-body">
+<div class="index-header">
+<h1 class="logo hide-text">知乎</h1>
+
+<h2 class="subtitle">与世界分享你的知识、经验和见解</h2>
+
+</div>
+
+<div class="desk-front sign-flow sign-flow clearfix sign-flow-simple">
+
+
+<div class="index-tab-navs">
+<div class="navs-slider">
+<a href="#signup" class="active">注册</a>
+<a href="#signin">登录</a>
+<span class="navs-slider-bar"></span>
+</div>
+</div>
+
+
+
+<div class="view view-signin" data-za-module="SignInForm">
+<form method="POST">
+<input type="hidden" name="_xsrf" value="2684d2c3c65090d9f529b1ced8f46768"/>
+<div class="group-inputs">
+
+<div class="account input-wrapper">
+
+<input type="text" name="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="verification input-wrapper">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required /><button type="button" class="send-code-button">获取验证码</button>
+</div>
+
+<div class="Captcha input-wrapper" data-type="cn" data-za-module="Captcha">
+<div class="Captcha-operate">
+<input type="hidden" name="captcha" required data-rule-required="true" data-msg-required="请点击图中所有倒立的文字">
+<input type="hidden" name="captcha_type" value="cn" required>
+<label class="Captcha-prompt">请点击图中所有倒立的文字</label>
+<span class="Captcha-refresh js-refreshCaptcha sprite-index-icon-refresh"></span>
+</div>
+<div class="Captcha-imageConatiner">
+<img class="Captcha-image" alt="验证码" >
+</div>
+</div>
+
+</div>
+<div class="button-wrapper command">
+<button class="sign-button submit" type="submit">登录</button>
+</div>
+<div class="signin-misc-wrapper clearfix">
+
+<button type="button" class="signin-switch-button">手机验证码登录</button>
+
+<a class="unable-login" href="#">无法登录？</a>
+</div>
+
+<div class="other-signup-wrapper" data-za-module="SNSSignIn">
+
+<span class="name signin-switch-qrcode-buttons">二维码登录</span>
+<span class="signup-footer-separate signup-footer-se"> · </span>
+
+<span class="name signup-social-buttons js-toggle-sns-buttons">社交帐号登录</span>
+
+<div class="sns-buttons">
+<a title="微信登录" class="js-bindwechat" href="#"><i class="sprite-index-icon-wechat"></i></a>
+<a title="微博登录" class="js-bindweibo" href="#"><i class="sprite-index-icon-weibo"></i></a>
+<a title="QQ 登录" class="js-bindqq" href="#"><i class="sprite-index-icon-qq"></i></a>
+</div>
+
+
+</div>
+
+</form>
+
+<div class="qrcode-signin-container">
+<div class="qrcode-signin-step1">
+<div class="qrcode-signin-img-wrapper">
+<img src="/static/img/spinner/grey-loading.gif" class="qrcode-signin-loading"/>
+</div>
+<p>打开最新 <a href="https://www.zhihu.com/app/" target="_blank">知乎 App</a></p>
+<p>在「更多」页面右上角打开扫一扫</p>
+<div class="qrcode-signin-cut-button">
+<span class="signin-switch-password">使用密码登录</span>
+</div>
+</div>
+<div class="qrcode-signin-step2">
+<div class="qrcode-signin-scan-status"></div>
+<p class="qrcode-signin-scan-tips">扫描成功</p>
+<p>请在手机上「确认登录」</p>
+<div class="qrcode-signin-cut-button">
+<span class="qrcode-goto-scan">返回二维码</span>
+</div>
+</div>
+<div class="qrcode-signin-failure">
+<div class="qrcode-signin-failure-icon"></div>
+<p class="qrcode-signin-failure-message"></p>
+<div class="qrcode-signin-cut-button">
+<span class="signin-switch-password">使用密码登录</span>
+</div>
+</div>
+<div class="qrcode-signin-guide"></div>
+</div>
+
+
+
+<div class="QRCode">
+<button class="QRCode-toggleButton">
+<span class="sprite-global-icon-qrcode"></span>
+<span class="QRCode-toggleButtonText ">下载知乎 App</span>
+</button>
+<div class="QRCode-card">
+<div class="QRCode-image"></div>
+<div class="sprite-index-icon-arrow"></div>
+</div>
+</div>
+
+
+</div>
+<div class="view  view-signup selected" data-za-module="SignUpForm">
+
+<form class="zu-side-login-box" action="/register/email" id="sign-form-1" autocomplete="off" method="POST">
+<input type="password" hidden> 
+<input type="hidden" name="_xsrf" value="2684d2c3c65090d9f529b1ced8f46768"/>
+
+<div class="group-inputs">
+
+
+<div class="name input-wrapper">
+<input required type="text" name="fullname" aria-label="姓名" placeholder="姓名">
+</div>
+<div class="email input-wrapper">
+
+<input required type="text" class="account" name="phone_num" aria-label="手机号" placeholder="手机号">
+
+</div>
+<div class="input-wrapper">
+<input required type="password" name="password" aria-label="密码" placeholder="密码（不少于 8 位）" autocomplete="off">
+</div>
+
+
+<div class="Captcha input-wrapper" data-type="cn" data-za-module="Captcha">
+<div class="Captcha-operate">
+<input type="hidden" name="captcha" required data-rule-required="true" data-msg-required="请点击图中所有倒立的文字">
+<input type="hidden" name="captcha_type" value="cn" required>
+<label class="Captcha-prompt">请点击图中所有倒立的文字</label>
+<span class="Captcha-refresh js-refreshCaptcha sprite-index-icon-refresh"></span>
+</div>
+<div class="Captcha-imageConatiner">
+<img class="Captcha-image" alt="验证码" >
+</div>
+</div>
+
+</div>
+<div class="button-wrapper command">
+<button class="sign-button submit" type="submit">注册知乎</button>
+</div>
+
+</form>
+
+<p class="agreement-tip">点击「注册」按钮，即代表你同意<a href="/terms" target="_blank">《知乎协议》</a></p>
+<a class="signup-entry--org" href="/org/signup">注册机构号</a>
+
+<div class="QRCode">
+<button class="QRCode-toggleButton">
+<span class="sprite-global-icon-qrcode"></span>
+<span class="QRCode-toggleButtonText ">下载知乎 App</span>
+</button>
+<div class="QRCode-card">
+<div class="QRCode-image"></div>
+<div class="sprite-index-icon-arrow"></div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+<div class="footer">
+<a target="_blank" href="https://zhuanlan.zhihu.com">知乎专栏</a>
+<span class="dot">·</span>
+<a target="_blank" href="/roundtable">知乎圆桌</a>
+<span class="dot">·</span>
+<a target="_blank" href="/explore" data-za-c="explore" data-za-a="visit_explore" data-za-l="home_bottom_explore">发现</a>
+<span class="dot">·</span>
+<a target="_blank" href="/app">移动应用</a>
+<span class="dot">·</span>
+<a href="/contact" class="footer-mobile-show">联系我们</a>
+<span class="dot">·</span>
+<a target="_blank" href="/careers">来知乎工作</a>
+<br />
+<span>&copy; 2017 知乎</span>
+<span class="dot">·</span>
+<a href="http://www.miibeian.gov.cn/" target="_blank">京 ICP 证 110745 号</a>
+<span class="dot">·</span>
+<span>京公网安备 11010802010035 号</span>
+<span class="dot">·</span>
+<a href="http://zhstatic.zhihu.com/assets/zhihu/publish-license.jpg" target="_blank">出版物经营许可证</a>
+<br />
+<a target="_blank" href="https://zhuanlan.zhihu.com/p/28852607">侵权举报</a>
+<span class="dot">·</span>
+<a target="_blank" href="http://www.12377.cn">网上有害信息举报专区</a>
+<span class="dot">·</span>
+<a target="_blank" href="/jubao">儿童色情信息举报专区</a>
+<span class="dot">·</span>
+<span>违法和不良信息举报：010-82716601</span>
+<div class="chengxing">
+<a id='___szfw_logo___' href='https://credit.szfw.org/CX20170607038331320388.html' target='_blank'>
+<img src="https://static.zhihu.com/static/revved/img/index/chengxing_logo@2x.65dc76e8.png" border='0' />
+</a>
+<script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+</div>
+</div>
+
+
+
+
+<script type="text/json" class="json-inline" data-name="disabled_components">["back_to_top"]</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1513834721000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.af8abc43.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.08f932fd.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-index.7cc04a7b.js"></script>
+<meta name="entry" content="ZH.entrySignPage" data-module-id="page-index">
+
+
+<input type="hidden" name="_xsrf" value="2684d2c3c65090d9f529b1ced8f46768"/>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-1c2c316b7a17f15536c6a26ed744654fc228a24658a7ae395cdcbf8329c8406b.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-8100b9bf1eb6ed8b38eaad2fe7ba51d1895aa0602aafe4a87068d444e07e8c5c.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-44b6bba3881278f33c221b6526379b55fbd098af3e553f54e81cab4c9a517c8e.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>The world&#39;s leading software development platform · GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta property="og:url" content="https://github.com">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description" content="GitHub is where people build software. More than 26 million people use GitHub to discover, fork, and contribute to over 74 million projects.">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="2BC4:16705:20C8FB0:30B158D:5A3B48E2" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="/" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="2BC4:16705:20C8FB0:30B158D:5A3B48E2" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MDJhMDNlOWU3ZWVjMGU5NTViY2Q2NGZiMDI1YzA1YjBmNDZjNTcxZTllNWMyNTdhNTJlYWEyNDhiZGI5ZTQ0Ynx7InJlbW90ZV9hZGRyZXNzIjoiMjExLjEzNi4xNjEuMjQxIiwicmVxdWVzdF9pZCI6IjJCQzQ6MTY3MDU6MjBDOEZCMDozMEIxNThEOjVBM0I0OEUyIiwidGltZXN0YW1wIjoxNTEzODM0NzIyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+
+  <meta name="html-safe-nonce" content="9747515e973034348224b9bb566030f40df59fb0">
+
+  <meta http-equiv="x-pjax-version" content="e6dbf537b2eb3990c0cae54500f32daf">
+  
+
+      <meta name="viewport" content="width=device-width">
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-44b6bba3881278f33c221b6526379b55fbd098af3e553f54e81cab4c9a517c8e.css" media="all" rel="stylesheet" />
+
+
+    <link rel="canonical" href="https://github.com/" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production page-responsive min-width-0 f4">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+      
+
+
+
+        <header class="Header header-logged-out js-details-container Details position-relative f4 py-3" role="banner">
+  <div class="container-lg d-lg-flex p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+        <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg aria-hidden="true" class="octicon octicon-three-bars text-white" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+        </button>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-lg-flex flex-justify-between flex-auto">
+        <nav class="mt-3 mt-lg-0">
+          <ul class="d-lg-flex list-style-none">
+              <li class="ml-lg-2">
+                <a href="/features" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features">
+                  Features
+</a>              </li>
+              <li class="ml-lg-4">
+                <a href="/business" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+                  Business
+</a>              </li>
+
+              <li class="ml-lg-4">
+                <a href="/explore" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-lg-4">
+                    <a href="/marketplace" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-lg-4">
+                <a href="/pricing" class="js-selected-navigation-item HeaderNavlink px-0 py-3 py-lg-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex">
+          <div class="d-lg-flex flex-items-center mr-lg-3">
+            <div class="header-search   js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/dashboard" class="header-search-scope no-underline">/dashboard</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus  "
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search GitHub"
+        aria-label="Search GitHub"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-block d-lg-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-home" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        
+
+<div class="jumbotron jumbotron-codelines">
+  <div class="container-lg p-responsive position-relative">
+    <div class="d-md-flex flex-items-center gutter-md-spacious">
+      <div class="col-md-7 text-center text-md-left ">
+        <h1 class="alt-h0 text-white lh-condensed-ultra mb-3">Built for developers</h1>
+        <p class="alt-lead mb-4">
+          GitHub is a development platform inspired by the way you work. From <a href="/open-source" class="text-white jumbotron-link">open source</a> to <a href="/business" class="text-white jumbotron-link">business</a>, you can host and review code, manage projects, and build software alongside millions of other&nbsp;developers.
+        </p>
+      </div>
+        <div class="mx-auto col-sm-8 col-md-5 hide-sm">
+          <div class="rounded-1 text-gray bg-gray-light py-4 px-4 px-md-3 px-lg-4">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j2wLPjrSawMpZkGOCLHvv501R1GOiic8+G/I8ywcgV8R/amgCTQDZ+BjZLtpannzIRsUKOVP38x+G0rzUny7jg==" /></div>              <dl class="form-group mt-0">
+                <dt class="input-label">
+                  <label class="form-label f5" for="user[login]">Username</label>
+                </dt>
+                <dd>
+                  <input type="text" name="user[login]" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" data-autocheck-url="/signup_check/username" data-autocheck-authenticity-token="Yfrkz826G10gfQzeXVRmMsLms9vm/aAilm1PR2SKEhfPpg6lIzvBa7ZY3ruFY+HuxhThi9HfYB6QvksH3gzS4w==" autofocus>
+                </dd>
+              </dl>
+              <dl class="form-group">
+                <dt class="input-label">
+                  <label class="form-label f5" for="user[email]">Email</label>
+                </dt>
+                <dd>
+                  <input type="text" name="user[email]" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="you@example.com" data-autocheck-url="/signup_check/email" data-autocheck-authenticity-token="uiBeKkpCbEaZXG45/WXzXYN2nqzKx2vH0ktwttmF5rOlfZbuQLNnokVMjW9AoVee72oAbnVg5VYbbCsec1jMyw==">
+                </dd>
+              </dl>
+              <dl class="form-group">
+                <dt class="input-label">
+                  <label class="form-label f5" for="user[password]">Password</label>
+                </dt>
+                <dd>
+                  <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block" placeholder="Create a password" data-autocheck-url="/signup_check/password" data-autocheck-authenticity-token="joDkETHWARks+L2TCzlH7FOU4vTqHz2dXZbiGL8VfLNp9CwRSEDz1qGawv6y0q25NaGFH22VWcQ7MCc6w0JnSw==">
+                </dd>
+                <p class="form-control-note">Use at least one letter, one numeral, and seven characters.</p>
+              </dl>
+              <input type="hidden" name="source" class="js-signup-source" value="form-home">
+              <input class="form-control" id="required_field_e617" name="required_field_e617" style="display: none" type="text" />
+<input class="form-control" name="timestamp" type="hidden" value="1513834722671" />
+<input class="form-control" name="timestamp_secret" type="hidden" value="f8a6dc729d4e45b3c6301dffcad68f5f3b3320ac14d1048ba88e42fdd2dfc783" />
+
+              <button class="btn btn-primary btn-large f4 btn-block" type="submit" data-ga-click="Signup, Attempt, location:teams;">Sign up for GitHub</button>
+              <p class="form-control-note mb-0 text-center">
+                By clicking "Sign up for GitHub", you agree to our
+                <a class="" href="https://help.github.com/terms" target="_blank">terms of service</a> and
+                <a class="" href="https://help.github.com/privacy" target="_blank">privacy policy</a>. <span class="js-email-notice">We’ll occasionally send you account related emails.</span>
+              </p>
+
+</form>          </div>
+        </div>
+        <div class="d-sm-none text-center">
+          <a href="/join?source=button-home" class="btn btn-primary btn-large border-0" data-ga-click="Signup, Attempt, location:jumbotron;" rel="nofollow">Sign up for GitHub</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette">
+  <div class="container-lg p-responsive pb-6">
+    <h6 class="alt-h4 text-normal text-gray text-center">
+      GitHub for teams
+    </h6>
+    <h2 class="alt-h1 lh-condensed mt-3 mb-2 text-center">
+      A better way to work together
+    </h2>
+    <p class="lead text-center col-md-8 mx-auto">
+      GitHub brings teams together to work through problems, move ideas forward, and learn from each other along the way.
+    </p>
+    <div class="text-center">
+        <a href="/join?plan=business&amp;setup_organization=true&amp;source=business-page" class="btn btn-large btn-outline" data-ga-click="Signup, Attempt, location:teams;">Sign up your team</a>
+    </div>
+  </div>
+
+  <div class="container-xl p-responsive">
+    <div class="position-relative overflow-hidden d-lg-flex pt-6">
+      <div class="col-10 col-sm-7 mx-auto mx-lg-6 mb-sm-3">
+        <img src="https://assets-cdn.github.com/images/modules/site/home-illo-team.svg" alt="" class="d-block width-fit mx-auto">
+      </div>
+      <div class="col-lg-5">
+        <a href="/features/code-review" class="summarylink">
+          <div class="summarylink-illustration">
+            <img src="https://assets-cdn.github.com/images/modules/site/home-illo-team-code.svg" alt="" class="width-fit mx-auto">
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4 my-4 my-sm-0">
+            <div class="col-10">
+              <h3 class="alt-h3 mb-1">Write better code</h3>
+              <p class="mb-0">Collaboration makes perfect. The conversations and code reviews that happen in Pull Requests help your team share the weight of your work and improve the software you build. <span class="text-blue">Learn about code review.</span></p>
+            </div>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-blue" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+        <a href="/features/project-management" class="summarylink">
+          <div class="summarylink-illustration">
+            <img src="https://assets-cdn.github.com/images/modules/site/home-illo-team-chaos.svg" alt="" class="width-fit mx-auto">
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4 my-4 my-sm-0">
+            <div class="col-10">
+              <h3 class="alt-h3 mb-1">Manage your chaos</h3>
+              <p class="mb-0">Take a deep breath. On GitHub, project management happens in Issues and Projects, right alongside your code. All you have to do is mention a teammate to get them involved. <span class="text-blue">Learn about project management.</span></p>
+            </div>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-blue" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+        <a href="/features/integrations" class="summarylink">
+          <div class="summarylink-illustration">
+            <img src="https://assets-cdn.github.com/images/modules/site/home-illo-team-tools.svg" alt="" class="width-fit mx-auto">
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4 my-4 my-sm-0">
+            <div class="col-10">
+              <h3 class="alt-h3 mb-1">Find the right tools</h3>
+              <p class="mb-0">Browse and buy apps from GitHub Marketplace with your GitHub account. Find the tools you like or discover new favorites—then start using them in minutes. <span class="text-blue">Learn about integrations.</span></p>
+            </div>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-blue" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="featurette border-top">
+  <div class="container-lg p-responsive">
+    <h6 class="alt-h4 text-normal text-gray text-center">
+      Security and administration
+    </h6>
+    <h2 class="alt-h1 mt-3 mb-2 text-center">
+      Boxes? Check.
+    </h2>
+    <p class="lead text-center col-md-8 mx-auto">
+      We worry about your administrative and security needs so you don’t have to. From flexible hosting to authentication options, GitHub can help you meet your team’s requirements.
+    </p>
+
+    <p class="text-center mb-5">
+      <a href="/business" class="btn btn-large btn-outline mx-auto">
+        Learn about GitHub for Business
+      </a>
+    </p>
+
+    <div class="d-md-flex flex-items-center flex-row-reverse mt-6 mb-3">
+      <div class="col-md-6 mx-auto px-5 pr-md-0 text-center">
+        <img src="https://assets-cdn.github.com/images/modules/site/home-illo-business.png" alt="Security and administration" class="width-fit mb-4">
+      </div>
+      <div class="col-md-6 mx-auto text-md-left f5 p-sm-6">
+        <h3 class="alt-h3 mb-1">Code security</h3>
+        <p class="mb-3 mb-md-5">
+          Prevent problems before they happen. Protected branches, signed commits, and required status checks protect your work and help you maintain a high standard for your code.
+        </p>
+
+        <h3 class="alt-h3 mb-1 mt-sm-6">Access controlled</h3>
+        <p class="mb-3 mb-md-5">
+          Encourage teams to work together while limiting access to those who need it with granular permissions and authentication through SAML/SSO and LDAP.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-7 mx-auto clearfix p-4 border rounded-1 pt-5">
+      <div class="float-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="mr-4" width="64px"><title>1clr-code-hosting</title><path d="M27 13h-9a1 1 0 0 0 0 2h9a1 1 0 0 0 0-2zM42 12a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zM46 12a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zM27 28h-9a1 1 0 0 0 0 2h9a1 1 0 0 0 0-2zM42 31a1 1 0 0 0 1-1v-2a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1zM46 31a1 1 0 0 0 1-1v-2a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1z" fill="#23292f"></path><path d="M50 44h-1a13 13 0 0 0-4.68-9H48a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3h-5v-3h5a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3H16a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h5v3h-5a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h11.72a13 13 0 0 0-3.79 5.21A7 7 0 0 0 13.28 44 6 6 0 0 0 14 56h36a6 6 0 0 0 0-12zM15 17v-6a1 1 0 0 1 1-1h32a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H16a1 1 0 0 1-1-1zm8 3h18v3H23zm-7 13a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h32a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-7a12.9 12.9 0 0 0-10 0H16zm34 21H14a4 4 0 1 1 .09-8 1 1 0 0 0 1-.83 5 5 0 0 1 8.6-2.55 1 1 0 0 0 1.7-.42A11 11 0 0 1 47 45a1 1 0 0 0 1 1h2a4 4 0 0 1 0 8z" fill="#23292f"></path></svg>
+
+      </div>
+      <div class="overflow-hidden">
+        <h4 class="alt-h4">Hosted where you need it</h4>
+        <p class="f5 mr-2">Securely and reliably host your work on GitHub.com. Or, deploy GitHub Enterprise on your own servers or in a private cloud using Amazon Web Services, Azure or Google Cloud Platform.</p>
+        <p>
+          <a href="/pricing">Compare plans<span class="no-wrap"><svg aria-hidden="true" class="octicon octicon-chevron-right ml-2 v-align-text-bottom" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></span></a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="featurette border-top">
+  <div class="container-lg p-responsive text-center">
+    <div class="col-md-8 py-md-6 mx-auto">
+      <h6 class="alt-h4 text-normal text-gray">
+        Integrations
+      </h6>
+      <h2 class="alt-h1 lh-condensed mt-3 mb-2">
+        Build on GitHub
+      </h2>
+      <p class="lead mb-2 pb-md-4 px-md-3">
+        Customize your process with GitHub apps and an intuitive API. Integrate the tools you already use or discover new favorites to create a happier, more efficient way of working.
+      </p>
+      <p class="f4 text-center mb-6">
+        <a href="/features/integrations" class="btn btn-large btn-outline mx-auto">Learn about integrations</a>
+      </p>
+    </div>
+
+    <div class="apps-cluster d-flex flex-wrap flex-justify-center pb-6">
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #553958;" aria-label="Slack"><img src="https://assets-cdn.github.com/images/modules/site/integrators/slackhq.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #364e98;" aria-label="ZenHub"><img src="https://assets-cdn.github.com/images/modules/site/integrators/zenhubio.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #eff9f9;" aria-label="Travis CI"><img src="https://assets-cdn.github.com/images/modules/site/integrators/travis-ci.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #5fb57d;" aria-label="Atom"><img src="https://assets-cdn.github.com/images/modules/site/integrators/atom.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #022531;" aria-label="Circle CI"><img src="https://assets-cdn.github.com/images/modules/site/integrators/circleci.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #f3f6fb;" aria-label="Codeship"><img src="https://assets-cdn.github.com/images/modules/site/integrators/codeship.png" alt="" class="CircleBadge-icon"></div>
+      <div class="CircleBadge CircleBadge--medium CircleBadge--feature hide-sm tooltipped tooltipped-s tooltipped-no-delay" style="background-color: #303030;" aria-label="Code Climate"><img src="https://assets-cdn.github.com/images/modules/site/integrators/codeclimate.png" alt="" class="CircleBadge-icon"></div>
+    </div>
+
+    <div class="col-md-8 py-md-6 mx-auto">
+      <p class="my-2 alt-text-small col-sm-8 col-md-6 mx-auto">
+        Sometimes, there’s more than one tool for the job. Why not try something new?
+      </p>
+      <p>
+        <a href="/marketplace">Browse GitHub <span class="no-wrap">Marketplace<svg aria-hidden="true" class="octicon octicon-chevron-right ml-2 v-align-text-bottom" height="16" version="1.1" viewBox="0 0 8 16" width="8"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></span></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="featurette border-top">
+  <div class="container-lg p-responsive">
+    <h6 class="alt-h4 text-normal text-gray text-center">
+      Community
+    </h6>
+    <h2 class="alt-h1 mt-3 mb-4 lh-condensed text-center">
+      Welcome home, <br>developers
+    </h2>
+      <p class="lead text-center col-md-8 mx-auto">
+        GitHub is home to the world’s largest community of developers and their&nbsp;projects...
+      </p>
+  </div>
+
+    <div class="d-flex flex-nowrap flex-items-stretch flex-lg-items-start overflow-auto px-2 py-6 my-6">
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /open-source/stories/ariya " class="story-link  d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Ariya" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/developers/ariya.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Ariya Hidayat</h1>
+        <p class="f6 text-gray">
+            PhantomJS maintainer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /open-source/stories/freakboy3742 " class="story-link  d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Freakboy3742" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/developers/freakboy3742.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Russell Keith-Magee</h1>
+        <p class="f6 text-gray">
+            PyBee maintainer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /business/customers/mailchimp " class="story-link story-link--customer d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Mailchimp" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/customers/mailchimp.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">MailChimp</h1>
+        <p class="f6 text-gray">
+            Marketing customer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /open-source/stories/kris-nova " class="story-link  d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Kris-nova" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/developers/kris-nova.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Kris Nova</h1>
+        <p class="f6 text-gray">
+            Kubernetes/kops maintainer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /open-source/stories/yyx990803 " class="story-link  d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Yyx990803" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/developers/yyx990803.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Evan You</h1>
+        <p class="f6 text-gray">
+            Vue maintainer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /business/customers/mapbox " class="story-link story-link--customer d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Mapbox" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/customers/mapbox.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Mapbox</h1>
+        <p class="f6 text-gray">
+            Software customer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+      <article class="story col-6 col-sm-3 p-2">
+  <a href=" /open-source/stories/jessfraz " class="story-link  d-block d-lg-flex height-full rounded-1 box-shadow-extra-large">
+    <div class="col-lg-6 position-relative">
+      <img alt="Jessfraz" class="d-block width-full" src="https://assets-cdn.github.com/images/modules/site/stories/developers/jessfraz.png" />
+    </div>
+    <div class="d-lg-flex flex-items-center col-lg-6">
+      <div class="width-full text-center p-3 py-lg-0">
+        <h1 class="story-title f2-light link-gray-dark lh-condensed mb-1">Jess Frazelle</h1>
+        <p class="f6 text-gray">
+            Kubernetes, previously Docker maintainer
+        </p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+  <div class="container-lg p-responsive">
+      <p class="lead text-center col-md-8 mx-auto pb-md-6">
+        ...whether you’re making your first commit or sending a Rover to Mars, there’s room for you here, too.
+      </p>
+
+    <div class="gutter-md">
+      <div class="communitystats position-relative">
+        <a href="/open-source" class="d-inline-block summarylink">
+          <div class="circle d-flex flex-column flex-justify-center text-center p-4 mx-auto mt-6 mb-3 m-md-3 bg-orange box-shadow-extra-large">
+            <span class="d-block f0-light text-white lh-condensed-ultra mb-2">74M</span>
+            <span class="f6 text-white">repositories worldwide</span>
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4">
+            <p class="col-10 mb-0">GitHub’s users create and maintain influential technologies alongside the world's largest <span class="text-orange-light">open source&nbsp;community</span>.</p>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-orange-light" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+
+        <a href="/personal" class="d-inline-block summarylink">
+          <div class="circle d-flex flex-column flex-justify-center text-center p-4 mx-auto mt-6 mb-3 m-md-3 bg-blue box-shadow-extra-large">
+            <span class="d-block f0-light text-white lh-condensed-ultra mb-2">26M</span>
+            <span class="f6 text-white">developers worldwide</span>
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4">
+            <p class="col-10 mb-0"><span class="text-blue">Developers</span> use GitHub for personal projects, from experimenting with new programming languages to hosting their life’s work.</p>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-blue" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+
+        <a href="/business" class="d-inline-block summarylink">
+          <div class="circle d-flex flex-column flex-justify-center text-center p-4 mx-auto mt-6 mb-3 m-md-3 bg-purple box-shadow-extra-large">
+            <span class="d-block f1-light text-white lh-condensed-ultra mb-2">117K</span>
+            <span class="f6 text-white">businesses worldwide</span>
+          </div>
+          <div class="summarylink-btn d-flex flex-justify-between flex-items-center f5 text-gray-dark rounded-1 p-sm-4">
+            <p class="col-10 mb-0"><span class="text-purple">Businesses</span> of all sizes use GitHub to support their development process and to securely build software.</p>
+            <svg aria-hidden="true" class="octicon octicon-triangle-right text-purple" height="16" version="1.1" viewBox="0 0 6 16" width="6"><path fill-rule="evenodd" d="M0 14l6-6-6-6z"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="text-center py-6 my-6">
+      <h3 class="alt-h3 text-gray-light mt-3 mb-4 lh-condensed">
+        More than a million teams use GitHub
+      </h3>
+      <ul class="d-flex flex-justify-center flex-items-center flex-wrap list-style-none my-2 my-md-3 grayscale">
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/airbnb-logo.png" alt="Airbnb" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/sap-logo.png" alt="SAP" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/ibm-logo.png" alt="IBM" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/google-logo.png" alt="Google" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/paypal-logo.png" alt="PayPal" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/bloomberg-logo.png" alt="Bloomberg" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/spotify-logo.png" alt="Spotify" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/swift-logo.png" alt="Swift" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/facebook-logo.png" alt="Rails" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/node-logo.png" alt="Node" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/nasa-logo.png" alt="Nasa" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+        <li><img src="https://assets-cdn.github.com/images/modules/site/logos/walmart-logo.png" alt="Walmart" class="logo-img-sm px-2 px-sm-4 px-md-5 my-md-3"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <div class="featurette bg-gray-dark">
+    <div class="container-lg p-responsive text-white text-center">
+      <h2 class="alt-h2">
+        Get started for free &mdash; join the millions of developers already using GitHub to share their code, work together, and build amazing things.
+      </h2>
+    </div>
+    <div class="container-xl p-responsive py-6 mt-lg-6">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oLUU4VXx4REtL/q7WqZvkhXV1tugeGNQ8UHarN3bnq0+JLZ/ZheJdeQq3447ffneqfuFosu9m6B3NViso7ukfA==" /></div>        <div class="d-lg-flex flex-wrap flex-lg-nowrap flex-justify-between">
+          <dl class="form-group col-12 col-sm-8 col-lg-3 mx-auto mt-0 mx-lg-0 mb-3 mb-lg-0 px-3">
+            <dt class="input-label sr-only">
+              <label class="form-label text-gray f5" for="user[login]-footer">Username</label>
+            </dt>
+            <dd>
+              <input type="text" name="user[login]" id="user[login]-footer" class="form-control form-control-lg input-block input-lg" placeholder="Pick a username" data-autocheck-url="/signup_check/username" data-autocheck-authenticity-token="S8KFeB7b7OrRiIJTNWVdFcb9RY9S59Z9wjts3URVc6Llnm8S8Fo23EetUDbtUtrJwg8X32XFFkHE6Gid/tOzVg==">
+            </dd>
+          </dl>
+
+          <dl class="form-group col-12 col-sm-8 col-lg-3 mx-auto mt-0 mx-lg-0 mb-3 mb-lg-0 px-3">
+            <dt class="input-label sr-only">
+              <label class="form-label text-gray f5" for="user[email]-footer">Email</label>
+            </dt>
+            <dd>
+              <input type="text" name="user[email]" id="user[email]-footer" class="form-control form-control-lg input-block input-lg js-email-notice-trigger" placeholder="Your email address" data-autocheck-url="/signup_check/email" data-autocheck-authenticity-token="70IG2xA+2H5hHGbrtoIhpVVufx5LLcBpqUvT2hxvKr3wH84fGs/Tmr0Mhb0LRoVmOXLh3PSKTvhgbIhytrIAxQ==">
+            </dd>
+          </dl>
+
+          <dl class="form-group col-12 col-sm-8 col-lg-3 mx-auto mt-0 mx-lg-0 mb-3 mb-lg-0 px-3">
+            <dt class="input-label sr-only">
+              <label class="d-none form-label text-gray f5" for="user[password]-footer">Password</label>
+            </dt>
+            <dd>
+              <input type="password" name="user[password]" id="user[password]-footer" class="form-control form-control-lg input-block input-lg" placeholder="Create a password" data-autocheck-url="/signup_check/password" data-autocheck-authenticity-token="3PHep9PnWZ1DdFLA+ZNX0f0d8YsK7ZWni93SSoL3MyE7hRanqnGrUs4WLa1AeL2EmyiWYI1n8f7texdo/qAo2Q==">
+            </dd>
+          </dl>
+
+          <input type="hidden" name="source" class="js-signup-source" value="form-home">
+          <input class="form-control" id="required_field_f2de" name="required_field_f2de" style="display: none" type="text" />
+<input class="form-control" name="timestamp" type="hidden" value="1513834722679" />
+<input class="form-control" name="timestamp_secret" type="hidden" value="b311e4547a46ac12242291a62dbf8840686738a167368ff8593d24b175553478" />
+
+          <div class="col-12 col-sm-8 col-lg-3 mx-auto mx-lg-0 mb-3 mb-lg-0 px-3">
+            <button class="btn btn-primary btn-large f4 btn-block" type="submit" data-ga-click="Signup, Attempt, location:teams;">Sign up for GitHub</button>
+          </div>
+        </div>
+        <p class="form-control-note text-center mt-6">
+          By clicking "Sign up for GitHub", you agree to our
+          <a class="text-white" href="https://help.github.com/terms" target="_blank">terms of service</a> and
+          <a class="text-white" href="https://help.github.com/privacy" target="_blank">privacy policy</a>. <span class="js-email-notice">We’ll occasionally send you account related emails.</span>
+        </p>
+</form>    </div>
+  </div>
+
+
+  <div class="modal-backdrop js-touch-events"></div>
+
+  </div>
+
+        <div class="footer container-lg p-responsive mt-6" role="contentinfo">
+  <div class="d-flex flex-wrap py-5 mb-5">
+    <div class="col-12 col-md-2 mb-3">
+      <svg aria-hidden="true" class="octicon octicon-logo-github" height="24" version="1.1" viewBox="0 0 45 16" width="67"><path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 0 0-.146-.18zm23.696-2.2c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61H33.84c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"/></svg>
+      <p class="text-gray alt-text-small">
+        &copy; 2017
+      </p>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Features</h4>
+      <ul class="list-style-none text-gray">
+        <li class="lh-condensed mb-2"><a href="/features#code-review" class="muted-link alt-text-small">Code review</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#project-management" class="muted-link alt-text-small">Project management</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#community-management" class="muted-link alt-text-small">Community</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#documentation" class="muted-link alt-text-small no-wrap">Documentation</a></li>
+        <li class="lh-condensed mb-2"><a href="/features#code-hosting" class="muted-link alt-text-small">Code hosting</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Platform</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://atom.io" class="muted-link alt-text-small">Atom</a></li>
+        <li class="lh-condensed mb-2"><a href="http://electron.atom.io/" class="muted-link alt-text-small">Electron</a></li>
+        <li class="lh-condensed mb-2"><a href="https://desktop.github.com/" class="muted-link alt-text-small">GitHub Desktop</a></li>
+        <li class="lh-condensed mb-2"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api" class="muted-link alt-text-small">Developers</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Community</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="/personal" class="muted-link alt-text-small">Personal</a></li>
+        <li class="lh-condensed mb-2"><a href="/open-source" class="muted-link alt-text-small">Open source</a></li>
+        <li class="lh-condensed mb-2"><a href="/business" class="muted-link alt-text-small">Business</a></li>
+        <li class="lh-condensed mb-2"><a href="https://education.github.com/" class="muted-link alt-text-small">Education</a></li>
+        <li class="lh-condensed mb-2"><a href="/business/customers" class="muted-link alt-text-small">Customers</a></li>
+        <li class="lh-condensed mb-2"><a href="https://partner.github.com/" class="muted-link alt-text-small">Partners</a></li>
+        <li class="lh-condensed mb-2"><a href="https://community.github.com/" class="muted-link alt-text-small">Sponsorships</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Company</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://github.com/about" class="muted-link alt-text-small" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/blog" class="muted-link alt-text-small" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li class="lh-condensed mb-2"><a href="/about/careers" class="muted-link alt-text-small">Careers</a></li>
+        <li class="lh-condensed mb-2"><a href="/about/press" class="muted-link alt-text-small">Press</a></li>
+        <li class="lh-condensed mb-2"><a href="https://shop.github.com" class="muted-link alt-text-small">Shop</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-sm-4 col-md-2 mb-3 pr-3">
+      <h4 class="mb-2">Resources</h4>
+      <ul class="list-style-none">
+        <li class="lh-condensed mb-2"><a href="https://github.com/contact" class="muted-link alt-text-small" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.community" data-ga-click="Footer, go to community, text:community" class="muted-link alt-text-small">GitHub Community Forum</a></li>
+        <li class="lh-condensed mb-2"><a href="https://help.github.com" class="muted-link alt-text-small" data-ga-click="Footer, go to help, text:help">Help</a></li>
+        <li class="lh-condensed mb-2"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status" class="muted-link alt-text-small">Status</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/site/terms" class="muted-link alt-text-small" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/site/privacy" class="muted-link alt-text-small" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li class="lh-condensed mb-2"><a href="https://github.com/security" class="muted-link alt-text-small" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="lh-condensed mb-2"><a href="https://services.github.com/" class="muted-link alt-text-small">Training</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-e42a8bf9c380758734e39851db04de7cbeeb2f3860efbd481c96ac12c25a6ecb.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-3907d9aad812b8c94147c88165cb4a9693c57cf99f0e8e01053fc79de7a9d911.js"></script>
+    
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-c1b10da21f1932a4173fcfb60676e2ad32e515f7ae77563ddb658f04cd26368d.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+

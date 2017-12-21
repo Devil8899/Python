@@ -1,0 +1,37 @@
+class School:
+
+    def __init__(self, name):
+        self.name = name
+        self.学校的唯一标识 = 随机字符串（不重复）
+       
+    def save(self):
+        pickle.dump((open(self.学校的唯一标识), 'wb'), self)
+    
+    def __str__(self):
+        return self.name
+    
+    @staticmethod
+    def get_all():
+        obj_list = []
+        for item 循环，去/home/alex/找所有的文件:
+            obj = pickle.load(item)
+            obj_list.append(obj)
+        return obj_list
+        
+    
+    
+s1 = School('上海') # af6ada1e-86e5-11e6-8fa1-005056c00008
+s1.save()
+# /home/alex/af6ada1e-86e5-11e6-8fa1-005056c00008
+
+s2 = School('北京') # b46b9874-86e5-11e6-9b3e-005056c00008
+s2.save()
+# /home/alex/af6ada1e-86e5-11e6-8fa1-005056c00008
+
+school_obj_list = School.get_all()
+for obj in school_obj_list:
+    # print("学校名称：%s" % obj.name )
+    print(obj)
+
+
+School.get_all()

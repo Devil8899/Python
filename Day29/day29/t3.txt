@@ -1,0 +1,48 @@
+class Nid:
+    def __init__(self, nid):
+        self.nid = nid
+        
+    def get_obj_by_nid(self):
+        obj = pickle.load打开  os.path.json(self.db_path，self.nid) 文件，获取内容，并返回
+        return obj
+
+        
+        
+class ClassesNid(Nid):
+    
+    def __init__(self,nid):
+        self.db_path = "班级对象存储文件夹路劲美"
+        super(ClassesNid, self).__init__(nid)
+
+        
+        
+class StudentNid(Nid):
+    
+    def __init__(self,nid):
+        self.db_path = "学生对象存储文件夹路劲美"
+        super(ClassesNid, self).__init__(nid)
+
+
+        
+班级数据文件夹：
+    b515bd9e-86e5-11e6-9cf4-005056c00008（全站11班）
+    b515bd9e-86e5-11e6-9cf4-005056c00002（全站2班）
+    b515bd9e-86e5-11e6-9cf4-005056c00001（全站3班）
+    
+学生的数据文件夹：
+    
+    b515bd9e-86e5-11e6-9cf4-005056c00018（小虎，ClassesNid(b515bd9e-86e5-11e6-9cf4-005056c00008)）
+    b515bd9e-86e5-11e6-9cf4-005056c00022（中虎，ClassesNid(b515bd9e-86e5-11e6-9cf4-005056c00008)）
+    b515bd9e-86e5-11e6-9cf4-005056c00031（大虎，ClassesNid(b515bd9e-86e5-11e6-9cf4-005056c00008)）
+
+    
+一个学生
+
+
+学生对象 --> load打开文件b515bd9e-86e5-11e6-9cf4-005056c00018,
+学生对象.name # 小虎
+学生对象.classes_id.nid
+学生对象.classes_id.get_obj_by_nid() # 班级对象
+
+
+

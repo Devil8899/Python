@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../Day5" />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.5.2 (C:\Users\liuz\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Day7" />
     <orderEntry type="module" module-name="Day8" />
@@ -19,6 +19,12 @@
     <orderEntry type="module" module-name="Day25" />
     <orderEntry type="module" module-name="Day26" />
     <orderEntry type="module" module-name="Day27" />
+    <orderEntry type="module" module-name="Day28" />
+    <orderEntry type="module" module-name="Day29" />
+    <orderEntry type="module" module-name="Day30" />
+    <orderEntry type="module" module-name="Day31" />
+    <orderEntry type="module" module-name="Day32" />
+    <orderEntry type="module" module-name="Day34" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

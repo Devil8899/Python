@@ -1,0 +1,61 @@
+# 关联时用唯一ID
+
+class Classes:
+    """
+    班级
+    """
+    def __init__(self,name):
+        self.name = name
+        self.nid = 随机字符串
+        
+    def save():
+        pickle保存
+        
+    @staticmethod
+    def get_all():
+        获取所有的班级对象
+    
+class Student:
+    """
+    学生
+    """
+    def __init__(self, name, classes_id):
+        """
+        name: 学生姓名
+        classes_obj: 班级名称
+        """
+        self.name = name
+        self.classesId = classes_id # 全站1班对象
+        
+        
+    def save():
+        学生对象中的所有数据，保存到一个文件
+        
+    
+# 所有的班级
+classes_obj_list = Classes.get_all()
+print(classes_obj_list)
+
+sel = input('请输入选择的班级索引：')
+# 班级对象（全站1班对象，全站2班，全站3班）
+classes_obj = classes_obj_list[sel]
+
+
+name = input(‘请输民称’)
+
+
+obj = Student(name, classes_obj.nid)
+obj.save()
+
+
+
+
+
+
+
+
+
+
+
+
+
