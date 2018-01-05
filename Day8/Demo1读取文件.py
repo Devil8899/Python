@@ -6,10 +6,10 @@
 # 读取数据
 '''
 fread=open("Usertxt",'r',encoding='utf-8')
-#参数
-#r 代表读
-#w 代表写     覆盖 encoding 代表读取的格式
-#a 代表追加  不覆盖
+参数
+r 代表读
+w 代表写     覆盖 encoding 代表读取的格式
+a 代表追加  不覆盖
 data=fread.read(5)
 print(data)
 #read(参数)   参数： 读取的字符个数

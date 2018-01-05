@@ -11,8 +11,8 @@ from multiprocessing import Process,Manager
 '''
 def f(d,l,i):
     d[i]='tom'   #只有这个会被覆盖
-    d['2']=2
-    d[0.25]=None
+    # d['2']=2
+    # d[0.25]=None
     l.append(i)
     # print(l)
 

@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../Day5" />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.5.2 (C:\Users\liuz\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5.2 (C:\Users\liuz\AppData\Local\Programs\Python\Python35\python.exe) (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Day7" />
     <orderEntry type="module" module-name="Day8" />
@@ -25,6 +25,9 @@
     <orderEntry type="module" module-name="Day31" />
     <orderEntry type="module" module-name="Day32" />
     <orderEntry type="module" module-name="Day34" />
+    <orderEntry type="module" module-name="Day36" />
+    <orderEntry type="module" module-name="WebDay51" />
+    <orderEntry type="module" module-name="DiangoDemo" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

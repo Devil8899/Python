@@ -3,12 +3,12 @@
 from multiprocessing import Process
 import time
 
-#创建一个类
+#创建一个类 继承进程类
 class myProcess(Process):
     def __init__(self):
         # Process.__init__()
-        super(myProcess,self).__init__()
-    def run(self):           #重写run方法
+        super(myProcess,self).__init__()  #调用父类的构造函数
+    def run(self):                       #重写run方法
         time.sleep(1)
         print(self.name)
 
@@ -16,9 +16,9 @@ class myProcess(Process):
 if __name__=="__main__":
     list_pro=[]
     for i in range(3):
-        t=myProcess()
-        t.start()
-        list_pro.append(t)
+        t=myProcess()           #创建3个进程
+        t.start()               #开启进程
+        list_pro.append(t)      #加入列表
 
     for p in list_pro:
          p.join()

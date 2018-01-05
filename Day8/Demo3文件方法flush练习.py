@@ -4,12 +4,12 @@
 #f=open('Usertxt','a',encoding='utf-8')
 
 #进度条效果  flush立刻刷新
-'''
-import  sys,time
-for i in range(30):
-    print('*',end='',flush=True)
-    time.sleep(0.2)
-'''
+
+# import  sys,time
+# for i in range(30):
+#     print('*',end='',flush=True)
+#     time.sleep(0.2)
+
 
 #截断方法
 #runcate() 方法用于截断文件，

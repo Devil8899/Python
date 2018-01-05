@@ -1,0 +1,106 @@
+1、MySQL软件：
+      客户端      服务端
+       mysql
+       navicat
+       pymysql
+  ...     
+2、连接：
+      用户管理
+      
+      权限管理（**远程**）
+      
+3、命令
+    数据库
+    数据表
+        - 主键
+        - 外键
+        - 是否可以null
+        - 默认值
+        - 自增
+        - 数据类型：
+            数字
+                int
+            字符串：
+                （char(9),varchar(9)）
+                 alex       7
+                 alex7
+            时间
+                
+    数据行：
+        连表：
+            left join   : null
+            right join  :
+            inner join  :
+        分组：
+            group by    having
+            distinct
+        排序：
+            order by
+            
+        分页：
+            limit 0,1  #
+            limit 1,1  #
+            limit 2,1  #
+            limit 4,1  #
+            limit 4,2  #
+        临时表：
+            AS 
+            
+4、pymysql模块
+    # 连接，游标
+    a. 增
+        execute(sql,参数)
+        executemany(sql,[(1,2,3),1,2,3)])
+    b. 删除
+        delete from
+    
+    c. 改
+        update
+    ------------ 上述：需要提交 ------------
+    
+    d. 查
+        execute(sql)
+            fetchone
+            fetchall
+            fetchmany()
+    ------------ 上述：execute返回值？受影响的函数-----------
+    
+    e. 新增时获取自增ID：lastrowid
+    
+    f. 获取字典类型数据
+        execute(select nid,name from tb1)
+        # 什么类型？
+        fetchall --> ((1,'alex'),(2,'alex'),)
+        fetchone --> (1,'alex')
+        # 字典类型
+        创建cursor时候执行类型
+        
+        
+    
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+        
+        
+        

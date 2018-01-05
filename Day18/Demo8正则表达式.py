@@ -35,8 +35,21 @@ ret4=re.findall('^h...o','hellojsakdfho')  #['hello']
 ret5=re.findall('t..m$','jsjdfmsdtoom')    #['toom']
 # * 重复匹配      匹配0或多个的表达式。
 ret6=re.findall('a.*t','falertdaler')      #['alert']
+'''
+key = r"http://www.nsfbuhwe.com and https://www.auhfisna.com"#胡编乱造的网址，别在意
+p1 = r"https*://"               # *跟在其他符号后面表达可以匹配到它0次或多次 s可以出现0次或多次
+pattern1 = re.compile(p1)
+print pattern1.findall(key)     # findall():所有结果返回到一个列表 ['http://', 'https://']
+'''
 #print(re.findall('b*','bb'))        #匹配0个或多个b #['bb', '']
-# + 重复匹配      匹配1个或多个的表达式。  匹配b前面有1个或多个a
+# + 重复匹配     匹配b前面有1个或多个a 将前面1个字符或1个子表达式重复一遍或者多遍。
+'''
++是贪婪模式 加了一个“?”我们就将贪婪的“+”改成了懒惰的“+”。这对于[abc]+,\w*之类的同样适用。
+key = r"chuxiuhong@hit.edu.cn"
+p1 = r"@.+?\."#我想匹配到@后面一直到“.”之间的，在这里是hit
+pattern1 = re.compile(p1)
+pattern1.findall(key) #['@hit.']
+'''
 ret7=re.findall('a+b','aabcbab')   #['aab', 'ab']
 # ? 匹配0个或1个由前面的正则表达式定义的片段  匹配b前面有0个或1个a
 ret8=re.findall('a?b','bsjaaba1b')  #['b', 'ab', 'b']
@@ -59,8 +72,8 @@ ret13=re.findall('[w,*]','*sdfw')  #3.取消元字符的特殊功能 ['*', 'w']
 #^放到括号内 取反   -  ^  \
 ret14=re.findall('[1-9a-zA-Z]','12pyY') #['1', '2', 'p', 'y', 'Y']
 ret15=re.findall('^iu','iuzz')  #['iu']   从字符串开始进行匹配
-ret16=re.findall('[^i,u]','iuzz')#[z,z]  取反的意思
-
+ret16=re.findall('[^i,u]','iuzz')#[z,z]  取反的意思 除了 i,u 都能匹配
+#[^]代表除了内部包含的字符以外都能匹配
 
 #\
 #反斜杠后边跟元字符去特殊功能

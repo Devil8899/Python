@@ -1,0 +1,55 @@
+https://www.cnblogs.com/yuanchenqi/articles/6083427.html
+著名的MVC模式：所谓MVC就是把web应用分为模型(M),控制器(C),视图(V)三层；他们之间以一种插件似的，
+松耦合的方式连接在一起。
+模型负责业务对象与数据库的对象(ORM),
+视图负责与用户的交互(页面)，
+控制器(C)接受用户的输入调用模型和视图完成用户的请求。
+                  
+
+Django的MTV模式本质上与MVC模式没有什么差别，也是各组件之间为了保持松耦合关系，
+只是定义上有些许不同，Django的MTV分别代表：
+       Model(模型)：负责业务对象与数据库的对象(ORM)
+       Template(模版)：负责如何把页面展示给用户
+       View(视图)：负责业务逻辑，并在适当的时候调用Model和Template
+       此外，Django还有一个url分发器，它的作用是将一个个URL的页面请求分发给不同的view处理，
+       view再调用相应的Model和Template
+
+
+1. #安装： #pip3 install django  官网 https://www.djangoproject.com/download/
+          pip install Django==2.0.1
+          python -m django --version
+2.创建project  django-admin startproject mysite
+ 生成了一个mysite目录
+  ---mysite
+          ---settings.py
+          ---url.py
+          ---wsgi.py
+       ---- manage.py(启动文件)
+manage.py ----- Django项目里面的工具，通过它可以调用django shell和数据库等。
+settings.py ---- 包含了项目的默认设置，包括数据库信息，调试标志以及其他一些工作的变量。
+urls.py ----- 负责把URL模式映射到应用程序。
+
+
+
+3.创建APP 一个应用application  一个project 可以对应多个应用
+       python manage.py startapp  myapp
+  生成一个目录myapp
+        admin.py文件
+        views.py
+        models.py
+        migrations
+        等文件
+在urls 设置函数和url映射
+在views进行视图展示
+
+启动django项目：python manage.py runserver 地址 端口 8080
+通过pycharme直接启动
+
+创建模板
+python manage.py makemigrations
+创建数据库
+python manage.py migrate
+数据库名：blog_user
+
+
+

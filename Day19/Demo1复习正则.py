@@ -13,6 +13,6 @@ ret2=re.findall('www.(\w+).com','www.sina.com')
 
 #finditer 返回一个迭代器对象 通过for循环 或者 next取值
 retn=re.finditer('\d','sjd1,23,23')
-# print(next(retn).group())
-# for i in retn:
+#print(next(retn).group())
+#for i in retn:
 #     print(i.group())

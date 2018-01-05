@@ -6,7 +6,7 @@ import  re
 正则表达式方法
 1.findall():所有结果返回到一个列表
 2.search(): 返回匹配到的第一个对象 对象可以调用group()返回结果
-3.Match():  只在字符串开始匹配
+3.Match():  只在字符串开始匹配 返回一个匹配的对象，否则返回None。 group(num) 或 groups() 匹配对象函数来获取匹配表达式
 re.match与re.search的区别
 re.match只匹配字符串的开始，如果字符串开始不符合正则表达式，
 则匹配失败，函数返回None；而re.search匹配整个字符串

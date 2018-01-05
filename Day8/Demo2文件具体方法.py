@@ -54,7 +54,6 @@ for index,linehh in enumerate (f.readlines()):
 number2=0
 for i in f:   #这是一种迭代器方式 for内部将f对象做成一个迭代器，用一行取一行
     number2+=1
-   
     if number2==2:   #处理文件
         i=''.join([i.strip(),'jiaru'])
     print(i.strip())
@@ -70,7 +69,7 @@ for i in f:   #这是一种迭代器方式 for内部将f对象做成一个迭代
 
 
 #f.seek(0)  #丛头开始读取
-#print(f.read(4)) #读取资格字符
+#print(f.read(4)) #读取4个字符
 
 
 

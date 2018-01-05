@@ -50,7 +50,7 @@ finally:
 #try fin
 
 
-print("____________________主动抛出异常 raise___________________________")
+print("____________________主动抛出异常 raise 关键字___________________________")
 class model:
     @classmethod
     def connect(cls):

@@ -1,0 +1,46 @@
+﻿1、视图
+    a. 临时表
+    b. 只能查
+    c. 执行时才获取数据
+    
+2、存储过程
+    a. 可写复杂逻辑
+    b. 参数：in   out   inout
+    c. 结果集：select ...
+3、动态SQL
+    a. sql是字符串
+    b. 字符串格式化 ? execute proc using @p1
+    
+4、触发器
+    a. 为某一个表：
+        inser 前后
+        update 前后
+        delete 前后
+    b. OLD，NEW
+    
+    c. 删除多行，插入，更新
+        for 多行：
+            OLD，NEW
+    
+    # 删除之前，讲删除的之添加到另外一张表
+    delete from tb1 where nid = 1
+  
+    delete from tb1： OLD
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+http://www.cnblogs.com/wupeiqi/articles/5713323.html
+1、视图
+    创建视图
+    create view view1 as select * from student
+    select * from view1
+    删除视图
+    drop view view1
+    修改视图
+    格式：ALTER VIEW 视图名称 AS SQL语句
+    ALTER VIEW view1 AS select * from student
+2.触发器：对某个表进行【增/删/改】操作的前后如果希望触发某个特定的行为时，可以使用触发器，触发器用于定制用户对表的行进行【增/删/改】前后的行为。
+# 插入前
+CREATE TRIGGER tri_before_insert_tb1 BEFORE INSERT ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+# 插入后
+CREATE TRIGGER tri_after_insert_tb1 AFTER INSERT ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+# 删除前
+CREATE TRIGGER tri_before_delete_tb1 BEFORE DELETE ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+# 删除后
+CREATE TRIGGER tri_after_delete_tb1 AFTER DELETE ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+# 更新前
+CREATE TRIGGER tri_before_update_tb1 BEFORE UPDATE ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+# 更新后
+CREATE TRIGGER tri_after_update_tb1 AFTER UPDATE ON tb1 FOR EACH ROW
+BEGIN
+    ...
+END
+
+
+
+3、存储过程
+    c1 => 
+          select * from temp1  left join .....
+          
+    # mysql客户端
+    call c1()
+    
+    
+    
+    # pymysql 
+    import pymysql
+
+    conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123', db='t1')
+    cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
+    #
+    # cursor.execute('select * from clasasdfasdfasdfasdfasdfasdfasdfasdfs;')
+    cursor.callproc('p2')
+ 
+    result = cursor.fetchall()
+
+    cursor.close()
+    conn.close()
+
+    
+
+
+
+    
+    
+
+2、触发器
+
+4、函数
+5、索引
+    

@@ -3,7 +3,7 @@
 
 import threading,time
 '''
-条件锁（threading.Condition）   默认是Rlock  
+条件锁（threading.Condition）   默认是Rlock  理解为一把高级的琐 
 acquire  
 release
 使用线程等待，只有满足某条件时，才释放n个线程
@@ -27,8 +27,8 @@ def run(n):
 
 if __name__ == '__main__':
 
-    con = threading.Condition()  #创建一个对象
-    for i in range(10):
+    con = threading.Condition()  #创建一个锁对象
+    for i in range(10):          #创建10个线程
         t = threading.Thread(target=run, args=(i,))
         t.start()
 
@@ -38,5 +38,5 @@ if __name__ == '__main__':
             break
 
         con.acquire()
-        con.notifyAll()   #激活所有被阻塞的线程
+        con.notifyAll()   #使用此方法的线程必须先锁定 激活所有被阻塞的线程
         con.release()

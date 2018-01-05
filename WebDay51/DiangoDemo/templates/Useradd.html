@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+</head>
+<link href="abc/three.css" rel="stylesheet" type="text/css">
+<body>
+<form action="Useradd" method="post">
+    <div>
+    <label for="">用户名</label><input type="text" name="name"><br>
+    <label for="">邮箱</label><input type="text" name="email"><br>
+    <label for="">手机号</label><input type="text" name="mobile"><br>
+    <label for="">地址</label><input type="text" name="address"><br>
+        <input type="submit" value="提交">
+    </div>
+
+</form>
+<table>
+    <tr>
+        <td>用户名</td>
+        <td>邮箱</td>
+        <td>手机号</td>
+        <td>地址</td>
+    </tr>
+    {#定义占位符 循环后台变量#}
+    {% for foo in User_list %}
+    <tr>
+        <td>{{ foo.name }}</td>
+        <td>{{ foo.email }}</td>
+        <td>{{ foo.mobile }}</td>
+        <td>{{ foo.address }}</td>
+    </tr>
+    {% endfor %}
+    <h1>根据配置文件找到样式文件</h1>
+</table>
+</body>
+</html>

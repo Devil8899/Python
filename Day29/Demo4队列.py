@@ -2,9 +2,9 @@
 #date: 2017/12/20
 
 import queue,threading
-#queue #线程队列
-#　适用于多线程编程的先进先出数据结构，可以用来安全的传递多线程信息。
-#  线程之间数据共享
+#queue #线程队列  是一种特殊列表
+#　 1.适用于多线程编程的先进先出数据结构，可以用来安全的传递多线程信息。
+#  2.线程之间数据共享
 #1.创建对象
 d=queue.Queue()
 #2..插入数据
@@ -16,7 +16,7 @@ d.put('jack')
 
 '''
 1. q = queue.Queue(maxsize=0)   
-构造一个先进显出队列，maxsize指定队列长度，参数不填默认表示队列长度无限制。
+构造一个先进先出队列，maxsize指定队列长度，参数不填默认表示队列长度无限制。
 2. q.join() 　　 
 等到队列为kong的时候，在执行别的操作
 3. q.put(item, block=True, timeout=None)   
@@ -37,20 +37,22 @@ PriorityQueue 优先级队列模式
 '''
 
 def s(i):
+    print("加入的线程",threading.current_thread().getName())
     que.put(i)
 
 
 def x(i):
     g = que.get(i)
-    print('get', g)
+    print('get', g,threading.current_thread().getName())
 
-
+listthread=[]
 for i in range(1, 11):
     t = threading.Thread(target=s, args=(i,))
+    listthread.append(t)
     t.start()
 print('size', que.qsize())
 for i in range(1, 11):
     t = threading.Thread(target=x, args=(i,))
     t.start()
-
+# print(listthread)
 print('size', que.qsize())

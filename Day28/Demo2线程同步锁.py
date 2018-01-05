@@ -10,7 +10,7 @@ import threading,time
 r=threading.Lock()       #1.创建一个线程锁对象
 def changeNum():
     global num
-    r.acquire()           #2.加锁  当锁内部代码执行完成后 cpu释放资源给下一个线程执行
+    r.acquire()           #2.加锁acquire()  当锁内部代码执行完成后 cpu释放资源给下一个线程执行
     tmp=num
     time.sleep(0.1)
     num=tmp-1

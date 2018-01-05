@@ -9,6 +9,7 @@ from multiprocessing import Process,Pipe,Queue #进程队列类Queue
 '''
 #id() 函数用于获取对象的内存地址。
 
+#第一种通过队列
 '''
 def DataQ(q):
     q.put([1,2,3])
@@ -22,12 +23,13 @@ if __name__=="__main__":
     for i in range(3):
         pro=Process(target=DataQ,args=(q,))  #将主进程创建好的队列作为参数传入
         pro.start()
-    #主进程获取数据  但是q是不同的内存地址 这里数据应该是复制了一份给了主进程
+    #主进程获取改变后的数据  但是q是不同的内存地址 这里数据应该是复制了一份给了主进程
     print(q.get())
     print(q.get())
     print(q.get())
 
 '''
+#第二种通过过Pipe
 #Pipe类似与socket通信  一个服务端 一个客户端  是一个管道通信
 def Datab(conn):
     age=20

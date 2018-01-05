@@ -15,7 +15,7 @@ def f(url):
     print("Get:%s"%url)
     resp=urlopen(url)
     data=resp.read()
-    file=open('index.html','wb')
+    file=open('index.html','ab')
     file.write(data)
     print("%d bytes received from %s"%(len(data),url))
 

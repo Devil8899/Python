@@ -2,7 +2,7 @@
 #date: 2017/12/25
 import select
 '''
-select 可以监控多个socket对象
+select模块可以监控多个socket对象
 select主要用于socket通信当中，能监视我们需要的文件描述变化。
 上面的代码是通过IO不阻塞来执行socket 只能是一个socket对象
 这里的例子是通过select模块里面的select方法来监控多个socket对象

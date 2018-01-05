@@ -10,7 +10,7 @@ from  greenlet import  greenlet
 '''
 def test1():
     print("12")
-    gr2.switch()
+    gr2.switch()  #gr1执行到这里 转到test2()执行
     print("56")
     gr2.switch()
 def test2():

@@ -4,7 +4,6 @@
 #学习Set集合                  无序,不重复
 '''
 集合是一个无序的，不重复的数据组合，它的主要作用如下：
-
 去重，把一个列表变成集合，就自动去重了
 关系测试，测试两组数据之前的交集、差集、并集等关系
 '''
@@ -45,18 +44,17 @@ print(tmp_set)
     #可变集合Set 可增删改元素,非可哈希的 不能作为字典的键，也不能做其他集合的元素
 
     #不可变集合frozenset 与上面相反
-'''
-num=[1,2,3]
-nset1=set(num)
-nset2=frozenset(num)
-'''
-#print(nset1,nset2)  #{1, 2, 3} frozenset({1, 2, 3})
+
+# num=[1,2,3]
+# nset1=set(num)
+# nset2=frozenset(num)
+#
+# print(nset1,nset2)  #{1, 2, 3} frozenset({1, 2, 3})
 
 
 #5 删除集合
 tmp_set.remove('jerry')
 tmp_set.pop()  #随机删除 并返回被删除值
-
 tmp_set.clear() #清空   set()
 # del tmp_set
 print(tmp_set)

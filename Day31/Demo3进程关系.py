@@ -5,7 +5,6 @@ from multiprocessing import Process
 import  time,os
 '''
 每个进程都有一个父进程
-
 '''
 def info(title):
     print(title)
@@ -19,6 +18,6 @@ def f(name):
 if __name__=="__main__":
     info('parent')
     time.sleep(10)
-    p=Process(target=info,args=('children',))
+    p=Process(target=info,args=('children',))  #子进程
     p.start()
     p.join()

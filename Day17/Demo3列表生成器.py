@@ -25,11 +25,11 @@ w=(x*2 for x in range(1,5))
 #print(w)  #<generator object <genexpr> at 0x000001F829696938>
 
 
-#生成器对象 内部方法__next__()  一般不使用  in python2 w.next()
+#生成器对象 1.内部方法__next__()  一般不使用  in python2 w.next()
 #print(w.__next__())  #2 返回第一个元素
 
 
-#next()方法=w.__next__()  建议使用系统内置方法
+#2.next()方法=w.__next__()  建议使用系统内置方法
 #print(next(w))     #2 返回第一个元素
 
 #循环取所有值  生成器是一个可迭代对象(Iterable) for循环也是调用了内部的next方法
