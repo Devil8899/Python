@@ -25,7 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/../Day7/.idea/Day7.iml" filepath="$PROJECT_DIR$/../Day7/.idea/Day7.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Day8/.idea/Day8.iml" filepath="$PROJECT_DIR$/../Day8/.idea/Day8.iml" />
       <module fileurl="file://$PROJECT_DIR$/../WebDay51/DiangoDemo/.idea/DiangoDemo.iml" filepath="$PROJECT_DIR$/../WebDay51/DiangoDemo/.idea/DiangoDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebDay53/DjangoDemo2/.idea/DjangoDemo2.iml" filepath="$PROJECT_DIR$/../WebDay53/DjangoDemo2/.idea/DjangoDemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../WebDay51/.idea/WebDay51.iml" filepath="$PROJECT_DIR$/../WebDay51/.idea/WebDay51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebDay53/.idea/WebDay53.iml" filepath="$PROJECT_DIR$/../WebDay53/.idea/WebDay53.iml" />
     </modules>
   </component>
 </project>

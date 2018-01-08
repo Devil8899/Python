@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{# 学习别名,提高程序扩展性  {% url 'ind' %} 固定写法 给提交数据路径起别名  #}
+<form action={% url 'ind' %} method="post">
+    <input type="text" name="name">
+    <input type="password" name="pwd">
+    <input type="submit" name="" value="提交" id="">
+</form>
+</body>
+</html>

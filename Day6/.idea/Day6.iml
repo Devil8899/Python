@@ -28,6 +28,8 @@
     <orderEntry type="module" module-name="Day36" />
     <orderEntry type="module" module-name="WebDay51" />
     <orderEntry type="module" module-name="DiangoDemo" />
+    <orderEntry type="module" module-name="WebDay53" />
+    <orderEntry type="module" module-name="DjangoDemo2" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

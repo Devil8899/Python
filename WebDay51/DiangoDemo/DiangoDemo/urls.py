@@ -15,18 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url,include  #引用include 函数  全局分发
 
-#将url映射到视图函数
+#将url映射到视图函数 视图函数返回给浏览器页面
 from blog import views
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('news',views.shownews),
-    path('Useradd',views.Useradd)
+    url('admin/', admin.site.urls),
+    url('blog/', include('blog.urls')) #全局分发
+    # url('news',views.shownews),
+    # path('Useradd',views.Useradd),
+    # path('articles/2003/',views.viewcust),
+    # #参数1   给视图函数传值
+    # path('index',views.index,{'name':'jerry'}),
+    # #参数2  给访问路径起别名,提交数据时from表单
+    # path('index2',views.index2,name='ind')
 ]
 '''
-URL配置(URLconf)就像Django 所支撑网站的目录。
+urls配置(URLconf)就像Django 所支撑网站的目录。
 它的本质是URL模式以及要为该URL模式调用的视图函数之间的映射表；
 你就是以这种方式告诉Django，对于这个URL调用这段代码，对于那个URL调用那段代码。
+一个路径,一个方法
 urlpatterns = [
     url(正则表达式, views视图函数，参数，别名),
 ]
